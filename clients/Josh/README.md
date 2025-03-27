@@ -8,18 +8,38 @@ This directory contains all projects, documentation, tasks, and resources for Jo
 - [Domain Portfolio Management](domain-data-management-strategy.md) - Strategy for managing multiple domain assets
 - [Domain Listing](domain-listing.md) - Inventory of domain assets
 
+## Repository Structure
+This client repository is organized as follows:
+
+```
+clients/Josh/
+├── CallFoamInc/                # Completed SEO audit project
+├── Doughlirium/                # Completed cookie dough e-commerce website
+├── HairPHD/                    # Salon website project
+├── Insulation_Contractors_Of_Arizona/  # Insulation contractor website & content
+├── Muscle_Car_Insurance_Blogs/ # Muscle car blog content project
+├── RingCentral/                # AI phone system integration
+├── Roofing Insurance/          # Roofing insurance documentation
+├── on-point-insulation/        # Insulation contractor in Colorado
+├── JOSH_TASK_LIST.md           # Master task tracking document
+├── README.md                   # This file
+├── domain-data-management-strategy.md  # Domain portfolio management
+├── domain-listing.md           # Domain inventory
+└── domain-management-note.md   # Additional domain notes
+```
+
 ## Active Projects
 
-### [Insulation Contractors of Arizona](InsulationContractorsOfArizona/README.md)
+### [Insulation Contractors of Arizona](Insulation_Contractors_Of_Arizona/README.md)
 **Status:** In progress - Analysis phase complete, implementation phase beginning
 **Description:** Comprehensive website analysis and optimization for an insulation contractor in Arizona
 **Key Tasks:**
 - Creating SEO-optimized blog content for insulation services
 - Website redesign and development
 - Technical SEO implementation
-- [View Project Details](InsulationContractorsOfArizona/README.md)
+- [View Project Details](Insulation_Contractors_Of_Arizona/README.md)
 
-### [Muscle Car Blogs Project](MuscleCar_Blogs/todo_list.md)
+### [Muscle Car Blogs Project](Muscle_Car_Insurance_Blogs/README.md)
 **Status:** In progress - 2 articles complete, 1 in preparation, 3 pending
 **Description:** Creation of enhanced muscle car articles for SEO and content marketing
 **Key Tasks:**
@@ -30,8 +50,7 @@ This directory contains all projects, documentation, tasks, and resources for Jo
 - PENDING: 10 Rare Muscle Cars Built in Low Numbers article
 - PENDING: What is a Hellcat? article
 - Implementing SEO-Enhanced Content Production Plan methodology for all articles
-- [View Project Tasks](MuscleCar_Blogs/todo_list.md)
-- [View Current Status](../knowledge/content_creation/muscle_car_blogs/status_update.md)
+- [View Project Details](Muscle_Car_Insurance_Blogs/README.md)
 
 ### [Roofing Insurance Documentation](Roofing%20Insurance/README.md)
 **Status:** In progress - Initial research framework complete
@@ -62,7 +81,7 @@ This directory contains all projects, documentation, tasks, and resources for Jo
 **Status:** In progress - Initial setup complete
 **Description:** Strategy and implementation for managing 500+ domain assets
 **Key Tasks:**
-- Completing domain import to management system
+- Completed domain import to management system
 - Creating categorization system
 - Developing priority ranking for development
 - [View Management Strategy](domain-data-management-strategy.md)
@@ -112,7 +131,27 @@ This directory contains all projects, documentation, tasks, and resources for Jo
 - Comprehensive Topic Research
 - Enhanced Content Strategy Development
 - Enhanced Content Production
-- [View Methodology](../knowledge/content_creation/SEO_Enhanced_Content_Production_Plan.md)
+- [View Methodology Document](https://github.com/MCERQUA/ECHO2/blob/main/knowledge/content_creation/SEO_Enhanced_Content_Production_Plan.md)
+
+## Project Documentation Standards
+
+### Folder Naming Conventions
+- Use consistent naming: snake_case for multi-word folders (example: `Muscle_Car_Insurance_Blogs`)
+- Maintain the existing folder structure without creating duplicate folders
+- Adhere to hierarchy shown in the structure diagram above
+
+### README Requirements
+- Each project folder must contain a README.md file with:
+  - Project overview and current status
+  - Documentation index with links to key files
+  - Folder structure (if complex)
+  - Implementation details and next steps
+
+### File Organization
+- Organize files in logical subfolders (research, articles, resources, etc.)
+- Use consistent naming conventions for similar file types
+- Link between related files using relative paths
+- Keep main project README updated with latest status
 
 ## Regular Maintenance
 - Weekly website performance reports
@@ -126,4 +165,4 @@ This directory contains all projects, documentation, tasks, and resources for Jo
 - **Weekly Meeting:** Thursday 2 PM ET
 - **Priority Level:** High
 
-*Last Updated: March 26, 2025*
+*Last Updated: March 27, 2025*

@@ -12,19 +12,45 @@ This project involves creating enhanced SEO-optimized content about classic musc
    - 35 high-quality external resources integrated
    - Comprehensive technical specifications and racing heritage
    - Collector information and market values
+   - [Mercury Cyclone Analysis](mercury_cyclone_analysis.md)
+   - [Mercury Cyclone Outline](mercury_cyclone_outline.md)
+   - [Mercury Cyclone Links](mercury_cyclone_links.md)
+   - [Mercury Cyclone Research](mercury_cyclone_research.md)
 
 2. **Classic Muscle Cars vs. Hellcat Comparison** - 100% COMPLETE
    - Comprehensive 8-part structure
    - 60+ high-quality external resources integrated
    - Financial analysis and future market trends included
+   - [Classic vs Hellcat Analysis](classic_vs_hellcat_analysis.md)
+   - [Classic vs Hellcat Outline](classic_vs_hellcat_outline.md)
+   - [Classic vs Hellcat Links](classic_vs_hellcat_links.md)
 
 ### In Progress
 - **Big-Block Alternatives Article** - Research plan created, implementation beginning
+   - [Big Block Alternatives Directory](Big_Block_Alternatives/)
 
 ### Planned Articles
 - **Best and Worst Pontiac GTOs** (from MSN slideshow)
 - **10 Rare Muscle Cars Built in Low Numbers** (from MSN slideshow)
 - **What is a Hellcat?** (from MSN article)
+- [Additional Article List](additional_article_list.md)
+
+## Project Structure
+```
+Muscle_Car_Insurance_Blogs/
+├── Big_Block_Alternatives/     # Files related to the Big Block article
+├── Mercury_Cyclone/            # Files related to the Mercury Cyclone article
+├── article_research/           # General research materials
+├── new_articles/               # Planning for new articles
+├── project_tracking/           # Status reports and tracking files
+├── README.md                   # This file
+├── additional_article_list.md  # List of planned articles
+├── classic_vs_hellcat_*.md     # Files related to Hellcat comparison
+├── mercury_cyclone_*.md        # Files related to Mercury Cyclone
+├── project_status.md           # Detailed project status
+├── project_todo_list.md        # Project tasks and timelines
+└── todo_list.md                # Current todo list
+```
 
 ## Original Source Articles
 - [The Coolest Mercury Muscle Car You Should Know About](https://www.msn.com/en-us/autos/enthusiasts/the-coolest-mercury-muscle-car-you-should-know-about/ar-AA1sY6Bc)
@@ -44,7 +70,7 @@ This project involves creating enhanced SEO-optimized content about classic musc
 
 ## Key Tasks
 - [Todo List](todo_list.md) - Comprehensive task list for each article
-- [Status Update](../../knowledge/content_creation/muscle_car_blogs/status_update.md) - Current project status
+- [Project Status](project_status.md) - Current project status
 
 ## Next Steps
 1. Begin research for Big-Block Alternatives article
@@ -52,4 +78,4 @@ This project involves creating enhanced SEO-optimized content about classic musc
 3. Review and prioritize the next batch of articles
 4. Collect image assets for completed articles
 
-*Last Updated: March 26, 2025*
+*Last Updated: March 27, 2025*

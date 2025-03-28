@@ -5,9 +5,18 @@
 ### Muscle Car Blogs Project
 - [X] Complete Mercury Cyclone article
 - [X] Complete Hellcat comparison article
-- [ ] Begin research for Big-Block Alternatives article
-- [ ] Finalize image collection for Mercury Cyclone and Hellcat articles
+- [X] Complete Big-Block Alternatives article
+- [X] Begin planning for "10 Rare Muscle Cars Built in Low Numbers" article
+- [ ] Continue research for "10 Rare Muscle Cars Built in Low Numbers" article
+- [ ] Finalize image collection for all completed articles
 - [ ] Establish publishing workflow and platform for completed articles
+- **New Article Progress**:
+  - [X] Create research plan for "10 Rare Muscle Cars" article
+  - [X] Develop detailed article outline
+  - [X] Compile SEO keyword strategy
+  - [X] Identify external linking resources
+  - [ ] Complete research phase (25% complete)
+  - [ ] See detailed tracking in `clients/Josh/Muscle_Car_Insurance_Blogs/new_articles/rare_muscle_cars_progress_tracker.md`
 
 ### Insulation Contractors of Arizona
 - [X] Create comprehensive URL resource list (55+ high-quality external resources)
@@ -53,5 +62,11 @@
 - [ ] Create content calendar for key websites
 - [ ] Establish SEO benchmarking system for content performance
 
+## Upcoming Muscle Car Articles
+- [X] Start "10 Rare Muscle Cars Built in Low Numbers" (High Priority) - Target completion: April 12, 2025
+- [ ] Plan "Best and Worst Pontiac GTOs" (Medium Priority) - Target start: Mid-April 2025
+- [ ] Plan "What is a Hellcat?" comprehensive guide (Medium Priority) - Target start: Late April 2025
+
 ## Weekly Schedule
 - Weekly meeting confirmed for Thursdays at 2 PM ET
+- Next review of Muscle Car Blog progress: April 4, 2025

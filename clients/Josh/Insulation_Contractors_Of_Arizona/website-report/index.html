@@ -1,11 +1,5 @@
-<div class="text-center mt-8 animate-fadeInUp animate-delay-3">
-                <a href="#blog-plan-full" class="btn btn-primary">View Full Blog Plan</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Full Blog Plan Section -->
-    <section id="blog-plan-full" class="section">
+<!-- Blog Plan Section -->
+    <section id="blog" class="section bg-light">
         <div class="container">
             <div class="section-title animate-fadeInUp">
                 <h2>Complete Blog Content Strategy</h2>
@@ -14,7 +8,7 @@
                 Our detailed blog content plan follows established SEO methodology to ensure maximum search visibility, user engagement, and lead generation potential.
             </div>
 
-            <!-- Priority Articles Section - No Accordion -->
+            <!-- Priority Articles Section -->
             <div class="info-section mt-8 animate-fadeInUp animate-delay-2">
                 <div class="info-header">
                     <h3>Priority Articles</h3>
@@ -59,7 +53,135 @@
                                     <h4 class="mb-2">Content Development Checklist</h4>
                                     <div class="task-item">
                                         <label class="task-checkbox">
-                                            <input type="checkbox" checked>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Implement review generation system</div>
+                            <div class="task-description">Create process for collecting and promoting customer reviews</div>
+                        </div>
+                        <span class="task-date">June 10</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Develop local link building strategy</div>
+                            <div class="task-description">Create partnerships with complementary local businesses</div>
+                        </div>
+                        <span class="task-date">June 20</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Set up local social media presence</div>
+                            <div class="task-description">Create and optimize social profiles for local engagement</div>
+                        </div>
+                        <span class="task-date">June 30</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));">
+                <div>
+                    <div class="footer-logo">
+                        <i class="fas fa-home"></i>
+                        Insulation Contractors
+                    </div>
+                    <p class="footer-description">
+                        A comprehensive website improvement and content strategy for Insulation Contractors of Arizona to enhance online presence and lead generation.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#summary">Executive Summary</a></li>
+                        <li><a href="#company">Company Information</a></li>
+                        <li><a href="#seo">SEO Analysis</a></li>
+                        <li><a href="#blog">Blog Plan</a></li>
+                        <li><a href="#tasks">Project Tasks</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Contact Information</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 10616 N 50th Ave, Glendale, AZ 85304</li>
+                        <li><i class="fas fa-phone"></i> 623-241-1939</li>
+                        <li><i class="fas fa-envelope"></i> insulationcontractorsofaz@gmail.com</li>
+                        <li><i class="fas fa-globe"></i> www.insulationcontractorsaz.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Service Areas</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Phoenix</a></li>
+                        <li><a href="#">Scottsdale</a></li>
+                        <li><a href="#">Glendale</a></li>
+                        <li><a href="#">Mesa</a></li>
+                        <li><a href="#">Tempe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Insulation Contractors of Arizona. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize all accordions on page
+        document.addEventListener('DOMContentLoaded', function() {
+            const accordionItems = document.querySelectorAll('.accordion-item');
+            
+            accordionItems.forEach(item => {
+                const header = item.querySelector('.accordion-header');
+                const content = item.querySelector('.accordion-content');
+                
+                // Set initial state for "active" accordions
+                if (item.classList.contains('accordion-active')) {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                }
+                
+                header.addEventListener('click', function() {
+                    item.classList.toggle('accordion-active');
+                    
+                    if (item.classList.contains('accordion-active')) {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                    } else {
+                        content.style.maxHeight = '0';
+                    }
+                });
+            });
+
+            // Mobile navigation toggle
+            const navMobile = document.querySelector('.nav-mobile');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (navMobile) {
+                navMobile.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>                            <input type="checkbox" checked>
                                             <span class="checkmark"></span>
                                         </label>
                                         <div class="task-content">
@@ -203,7 +325,7 @@
                 </div>
             </div>
             
-            <!-- Secondary Articles Section - No Accordion -->
+            <!-- Secondary Articles Section -->
             <div class="info-section mt-8 animate-fadeInUp animate-delay-2">
                 <div class="info-header">
                     <h3>Secondary Articles</h3>
@@ -268,7 +390,7 @@
                 </div>
             </div>
             
-            <!-- Specialized Articles Section - No Accordion -->
+            <!-- Specialized Articles Section -->
             <div class="info-section mt-8 animate-fadeInUp animate-delay-3">
                 <div class="info-header">
                     <h3>Specialized Articles</h3>
@@ -333,7 +455,7 @@
                 </div>
             </div>
             
-            <!-- Content Development Process Section - No Accordion -->
+            <!-- Content Development Process Section -->
             <div class="info-section mt-8 animate-fadeInUp animate-delay-3">
                 <div class="info-header">
                     <h3>Content Development Process</h3>
@@ -483,406 +605,187 @@
             </div>
         </div>
     </section>
-                                                    <div class="task-title">Original article analysis</div>
-                                                </div>
-                                            </div>
-                                            <div class="task-item">
-                                                <label class="task-checkbox">
-                                                    <input type="checkbox">
-                                                    <span class="checkmark"></span>
-                                                </label>
-                                                <div class="task-content">
-                                                    <div class="task-title">Comprehensive topic research</div>
-                                                </div>
-                                            </div>
-                                            <div class="task-item">
-                                                <label class="task-checkbox">
-                                                    <input type="checkbox">
-                                                    <span class="checkmark"></span>
-                                                </label>
-                                                <div class="task-content">
-                                                    <div class="task-title">External link collection</div>
-                                                </div>
-                                            </div>
-                                            <div class="task-item">
-                                                <label class="task-checkbox">
-                                                    <input type="checkbox">
-                                                    <span class="checkmark"></span>
-                                                </label>
-                                                <div class="task-content">
-                                                    <div class="task-title">Article outline</div>
-                                                </div>
-                                            </div>
-                                            <div class="task-item">
-                                                <label class="task-checkbox">
-                                                    <input type="checkbox">
-                                                    <span class="checkmark"></span>
-                                                </label>
-                                                <div class="task-content">
-                                                    <div class="task-title">Article draft</div>
-                                                </div>
-                                            </div>
-                                            <div class="task-item">
-                                                <label class="task-checkbox">
-                                                    <input type="checkbox">
-                                                    <span class="checkmark"></span>
-                                                </label>
-                                                <div class="task-content">
-                                                    <div class="task-title">Multimedia selection</div>
-                                                </div>
-                                            </div>
-                                            <div class="task-item">
-                                                <label class="task-checkbox">
-                                                    <input type="checkbox">
-                                                    <span class="checkmark"></span>
-                                                </label>
-                                                <div class="task-content">
-                                                    <div class="task-title">Final review and SEO optimization</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="mb-8">
-                                <div class="blog-card">
-                                    <div class="blog-content p-6">
-                                        <h3 class="blog-title">Summer Heat Protection: Why Arizona Homes Need Premium Insulation</h3>
-                                        <div class="mb-4">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span class="ml-4">1,800-2,200 words</span>
-                                        </div>
-                                        
-                                        <div class="mb-4">
-                                            <h4 class="mb-2">Target Audience</h4>
-                                            <p>Homeowners experiencing comfort issues during summer</p>
-                                        </div>
-                                        
-                                        <div class="mb-4">
-                                            <h4 class="mb-2">Key Topics</h4>
-                                            <ul>
-                                                <li>Heat transfer mechanisms in Arizona homes</li>
-                                                <li>Common comfort problems during extreme heat</li>
-                                                <li>How proper insulation mitigates heat gain</li>
-                                                <li>Attic insulation importance for desert climates</li>
-                                                <li>Complementary strategies (radiant barriers, ventilation)</li>
-                                                <li>Warning signs of inadequate insulation</li>
-                                            </ul>
-                                        </div>
-                                        
-                                        <div class="mb-4">
-                                            <h4 class="mb-2">Enhancement Opportunities</h4>
-                                            <ul>
-                                                <li>Include thermal imaging examples of insulated vs non-insulated homes</li>
-                                                <li>Add expert tips from experienced Arizona contractors</li>
-                                                <li>Create seasonal maintenance checklist</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Project Tasks Section -->
+    <section id="tasks" class="section">
+        <div class="container">
+            <div class="section-title animate-fadeInUp">
+                <h2>Project Tasks</h2>
+            </div>
+            <div class="section-description animate-fadeInUp animate-delay-1">
+                The following tasks outline our complete implementation plan for the Insulation Contractors of Arizona website enhancement and content strategy.
+            </div>
+
+            <div class="task-list animate-fadeInUp animate-delay-2">
+                <div class="task-header">
+                    <h3>Website Development Tasks</h3>
+                    <span class="task-date">Due: May 15, 2025</span>
                 </div>
-                
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <span>Secondary Articles</span>
-                        <i class="fas fa-chevron-down accordion-icon"></i>
-                    </div>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Spray Foam vs. Fiberglass Insulation: What's Best for Arizona Homes?</h3>
-                                        <p class="blog-text">Detailed comparison of the two most popular insulation types with performance data specific to desert climate conditions.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,000-2,500 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Attic Insulation in Arizona: A Complete Guide to Keeping Your Home Cool</h3>
-                                        <p class="blog-text">Specialized guide focusing on attic insulation strategies for maximum cooling efficiency in desert homes.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,200-2,700 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Insulation and Indoor Air Quality: What Arizona Homeowners Need to Know</h3>
-                                        <p class="blog-text">Exploration of how insulation affects indoor air quality in Arizona's dry climate, with health considerations.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>1,800-2,200 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">DIY vs. Professional Insulation: Making the Right Choice for Your Arizona Home</h3>
-                                        <p class="blog-text">Analysis of when DIY insulation makes sense and when professionals are needed, with Arizona-specific considerations.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,000-2,400 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Desert-Proof Your Home: Insulation Strategies for Arizona's Extreme Climate</h3>
-                                        <p class="blog-text">Comprehensive guide to all insulation strategies for desert-proofing homes against extreme temperature variations.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,500-3,000 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="task-body">
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Complete website redesign</div>
+                            <div class="task-description">Implement modern, responsive design with improved UX</div>
                         </div>
+                        <span class="task-date">May 1</span>
                     </div>
-                </div>
-                
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <span>Specialized Articles</span>
-                        <i class="fas fa-chevron-down accordion-icon"></i>
-                    </div>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Commercial Insulation Solutions for Arizona Businesses</h3>
-                                        <p class="blog-text">Specialized guide for commercial property owners focused on energy efficiency and cost reduction.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,200-2,700 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Insulating Historic Arizona Homes: Balancing Efficiency with Preservation</h3>
-                                        <p class="blog-text">Specialized guide for owners of historic properties with techniques that preserve architectural integrity.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,000-2,500 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Insulation and Arizona Building Codes: What Contractors and Homeowners Must Know</h3>
-                                        <p class="blog-text">Detailed explanation of Arizona's building code requirements for insulation in different climate zones.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,200-2,700 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Eco-Friendly Insulation Options for Sustainable Arizona Homes</h3>
-                                        <p class="blog-text">Guide to environmentally friendly insulation materials and their performance in Arizona's climate.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>2,000-2,500 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="blog-card">
-                                    <div class="blog-content p-4">
-                                        <h3 class="blog-title text-lg mb-2">Insulation Upgrades: The Most Valuable Home Improvement for Arizona Sellers</h3>
-                                        <p class="blog-text">Analysis of ROI for insulation upgrades when selling a home in the Arizona market.</p>
-                                        <div class="blog-footer">
-                                            <span class="blog-status status-pending">Pending</span>
-                                            <span>1,800-2,200 words</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Develop comprehensive service pages</div>
+                            <div class="task-description">Create detailed pages for each insulation type and service</div>
                         </div>
+                        <span class="task-date">May 5</span>
                     </div>
-                </div>
-                
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <span>Content Development Process</span>
-                        <i class="fas fa-chevron-down accordion-icon"></i>
-                    </div>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            <div class="info-section mb-6">
-                                <div class="info-header">
-                                    <h3>Implementation Strategy</h3>
-                                </div>
-                                <div class="info-body">
-                                    <p class="mb-4">For each article, we follow the established SEO-Enhanced Content Production Plan:</p>
-                                    
-                                    <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));">
-                                        <div class="mb-4">
-                                            <h4 class="mb-2">1. Original Article Analysis</h4>
-                                            <ul>
-                                                <li>Research existing content on the topic</li>
-                                                <li>Identify gaps and enhancement opportunities</li>
-                                                <li>Establish target keywords and search intent</li>
-                                            </ul>
-                                        </div>
-                                        
-                                        <div class="mb-4">
-                                            <h4 class="mb-2">2. Comprehensive Topic Research</h4>
-                                            <ul>
-                                                <li>Gather authoritative sources and technical information</li>
-                                                <li>Research Arizona-specific data and requirements</li>
-                                                <li>Compile case studies and practical examples</li>
-                                                <li>Identify external linking opportunities</li>
-                                            </ul>
-                                        </div>
-                                        
-                                        <div class="mb-4">
-                                            <h4 class="mb-2">3. Enhanced Content Strategy Development</h4>
-                                            <ul>
-                                                <li>Create detailed article outlines</li>
-                                                <li>Develop structural improvements over competing content</li>
-                                                <li>Plan multimedia integration (images, infographics, tools)</li>
-                                                <li>Design user experience enhancements</li>
-                                            </ul>
-                                        </div>
-                                        
-                                        <div class="mb-4">
-                                            <h4 class="mb-2">4. Enhanced Content Production</h4>
-                                            <ul>
-                                                <li>Write comprehensive, SEO-optimized content</li>
-                                                <li>Create supporting multimedia elements</li>
-                                                <li>Implement technical SEO elements</li>
-                                                <li>Perform quality assurance and fact-checking</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="info-section">
-                                <div class="info-header">
-                                    <h3>Publishing Schedule</h3>
-                                </div>
-                                <div class="info-body">
-                                    <ul>
-                                        <li>Initial focus on the 5 priority articles</li>
-                                        <li>Aim to publish 1-2 articles per week following completion</li>
-                                        <li>Schedule seasonal content to align with peak interest periods</li>
-                                        <li>Balance between technical guides and more accessible content</li>
-                                    </ul>
-                                    
-                                    <div class="mt-6">
-                                        <h4 class="mb-2">Project-Wide Tasks</h4>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox" checked>
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Develop SEO-Enhanced Content Production Plan methodology</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox" checked>
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Create article analysis template</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox" checked>
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Establish external link collection process</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Develop standardized image collection workflow</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Establish publishing workflow and final locations</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Create process for custom graphic design if needed</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Determine final hosting location for articles</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Establish image optimization workflow</div>
-                                            </div>
-                                        </div>
-                                        <div class="task-item">
-                                            <label class="task-checkbox">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <div class="task-content">
-                                                <div class="task-title">Set up analytics tracking to measure article performance</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Implement technical SEO elements</div>
+                            <div class="task-description">Add proper meta tags, schema markup, and sitemap</div>
                         </div>
+                        <span class="task-date">May 8</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Create location-specific landing pages</div>
+                            <div class="task-description">Develop targeted pages for service areas in Arizona</div>
+                        </div>
+                        <span class="task-date">May 12</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Optimize lead generation elements</div>
+                            <div class="task-description">Enhance forms, CTAs, and conversion paths</div>
+                        </div>
+                        <span class="task-date">May 15</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Project Tasks Section --><!DOCTYPE html>
+            <div class="task-list mt-8 animate-fadeInUp animate-delay-2">
+                <div class="task-header">
+                    <h3>Content Development Tasks</h3>
+                    <span class="task-date">Due: June 10, 2025</span>
+                </div>
+                <div class="task-body">
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Develop content strategy plan</div>
+                            <div class="task-description">Create comprehensive content roadmap with topics and keywords</div>
+                        </div>
+                        <span class="task-date">Completed</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Research priority articles</div>
+                            <div class="task-description">Gather sources, statistics, and Arizona-specific information</div>
+                        </div>
+                        <span class="task-date">Completed</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Complete first article draft</div>
+                            <div class="task-description">Finalize "Complete Guide to Home Insulation Types in Arizona"</div>
+                        </div>
+                        <span class="task-date">May 20</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Develop supporting visuals</div>
+                            <div class="task-description">Create infographics, charts, and illustrations for articles</div>
+                        </div>
+                        <span class="task-date">May 30</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Complete remaining priority articles</div>
+                            <div class="task-description">Finish writing and optimizing all five priority articles</div>
+                        </div>
+                        <span class="task-date">June 10</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task-list mt-8 animate-fadeInUp animate-delay-3">
+                <div class="task-header">
+                    <h3>Local SEO & Marketing Tasks</h3>
+                    <span class="task-date">Due: June 30, 2025</span>
+                </div>
+                <div class="task-body">
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Optimize Google Business Profile</div>
+                            <div class="task-description">Update all information, add photos, and ensure accuracy</div>
+                        </div>
+                        <span class="task-date">May 18</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Create citation listings</div>
+                            <div class="task-description">Develop consistent NAP across top directories</div>
+                        </div>
+                        <span class="task-date">June 1</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="task-content">
+                            <div class="task-title">Implement review generation system</div>
+                            <div class="task-description">Create process for collecting and promoting customer reviews</div>
+                        </div>
+                        <span class="task-date">June 10</span>
+                    </div>
+                    <div class="task-item">
+                        <label class="task-checkbox">
+                <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -928,6 +831,7 @@
             color: var(--dark);
             line-height: 1.6;
             overflow-x: hidden;
+            padding-top: 70px; /* Add padding for fixed navbar */
         }
 
         h1, h2, h3, h4, h5 {
@@ -1038,7 +942,6 @@
             align-items: center;
             background: url('/api/placeholder/1200/600') center/cover no-repeat;
             background-attachment: fixed;
-            margin-top: 70px;
             overflow: hidden;
         }
 
@@ -1700,6 +1603,7 @@
         .mb-8 { margin-bottom: 2rem; }
         .my-4 { margin-top: 1rem; margin-bottom: 1rem; }
         .my-8 { margin-top: 2rem; margin-bottom: 2rem; }
+        .ml-4 { margin-left: 1rem; }
         .p-4 { padding: 1rem; }
         .p-6 { padding: 1.5rem; }
         .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
@@ -1709,6 +1613,7 @@
         .text-primary { color: var(--primary); }
         .text-secondary { color: var(--secondary); }
         .text-gray { color: var(--gray); }
+        .text-lg { font-size: 1.125rem; }
         .bg-white { background: white; }
         .bg-primary { background: var(--primary); }
         .bg-light { background: var(--light); }
@@ -1836,6 +1741,38 @@
             }
         }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile navigation toggle
+            const navMobile = document.querySelector('.nav-mobile');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (navMobile) {
+                navMobile.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                });
+            }
+            
+            // Accordion functionality
+            const accordionItems = document.querySelectorAll('.accordion-item');
+            
+            accordionItems.forEach(item => {
+                const header = item.querySelector('.accordion-header');
+                
+                header.addEventListener('click', function() {
+                    item.classList.toggle('accordion-active');
+                    
+                    const content = item.querySelector('.accordion-content');
+                    
+                    if (item.classList.contains('accordion-active')) {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                    } else {
+                        content.style.maxHeight = '0';
+                    }
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -1843,8 +1780,11 @@
         <div class="navbar-container">
             <a href="#" class="logo">
                 <i class="fas fa-home logo-icon"></i>
-                                        <span>Insulation</span> Website Report
+                <span>Insulation</span> Website Report
             </a>
+            <div class="nav-mobile">
+                <i class="fas fa-bars"></i>
+            </div>
             <div class="nav-links">
                 <a href="#summary" class="nav-link">Executive Summary</a>
                 <a href="#company" class="nav-link">Company Info</a>
@@ -1869,193 +1809,18 @@
         </div>
     </section>
 
-    <!-- Executive Summary Section -->
-    <section id="summary" class="section">
+    <!-- Blog Plan Section -->
+    <section id="blog" class="section bg-light">
         <div class="container">
             <div class="section-title animate-fadeInUp">
-                <h2>Executive Summary</h2>
+                <h2>Complete Blog Content Strategy</h2>
             </div>
             <div class="section-description animate-fadeInUp animate-delay-1">
-                We have completed a comprehensive analysis of Insulation Contractors of Arizona's online presence, SEO performance, and market positioning. This summary highlights our key findings and recommendations.
+                Our detailed blog content plan follows established SEO methodology to ensure maximum search visibility, user engagement, and lead generation potential.
             </div>
 
-            <div class="grid animate-fadeInUp animate-delay-2">
-                <div class="summary-card">
-                    <div class="summary-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>Company Overview</h3>
-                    <ul>
-                        <li>Established business with 20+ years in the Arizona market</li>
-                        <li>Family-owned and operated by Christopher Kuhn</li>
-                        <li>Multiple locations in Glendale and Wittmann</li>
-                        <li>Diverse insulation services including spray foam, fiberglass, and cellulose</li>
-                        <li>Properly licensed, bonded, and insured with BBB accreditation</li>
-                    </ul>
-                </div>
-
-                <div class="summary-card">
-                    <div class="summary-icon">
-                        <i class="fas fa-laptop"></i>
-                    </div>
-                    <h3>Website Assessment</h3>
-                    <ul>
-                        <li>Basic structure with limited navigation and content depth</li>
-                        <li>Content gaps in service descriptions and educational content</li>
-                        <li>Basic mobile responsiveness without optimization</li>
-                        <li>Simple contact forms without conversion optimization</li>
-                        <li>Limited imagery and visual demonstrations</li>
-                    </ul>
-                </div>
-
-                <div class="summary-card">
-                    <div class="summary-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>SEO Opportunities</h3>
-                    <ul>
-                        <li>Significant potential for technical SEO improvements</li>
-                        <li>Content development for comprehensive service pages</li>
-                        <li>Local SEO enhancement with city-specific landing pages</li>
-                        <li>Extensive keyword opportunities across services and locations</li>
-                        <li>Strategic implementation of schema markup</li>
-                    </ul>
-                </div>
-
-                <div class="summary-card">
-                    <div class="summary-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Competitive Landscape</h3>
-                    <ul>
-                        <li>Primary competitors: Barrier Insulation, Arizona Spray Foam</li>
-                        <li>Positioned in mid-market segment with family-business approach</li>
-                        <li>Lacks the comprehensive digital presence of competitors</li>
-                        <li>Untapped differentiation in family ownership and experience</li>
-                        <li>Specialized applications offer unique positioning opportunity</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Strategic Recommendations Section - No Accordion -->
-            <div class="info-section mt-8 animate-fadeInUp animate-delay-2">
-                <div class="info-header">
-                    <h3>Strategic Recommendations</h3>
-                </div>
-                <div class="info-body">
-                    <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));">
-                        <div>
-                            <h4 class="mb-2">Website Enhancements</h4>
-                            <ol>
-                                <li>Complete redesign with modern, responsive structure</li>
-                                <li>Comprehensive service pages and educational resources</li>
-                                <li>Strategic lead generation elements and optimized forms</li>
-                                <li>Visual storytelling with project galleries</li>
-                                <li>Robust testimonial showcase highlighting customer experiences</li>
-                            </ol>
-                        </div>
-                        <div>
-                            <h4 class="mb-2">SEO Implementation</h4>
-                            <ol>
-                                <li>Technical foundation with proper structure and metadata</li>
-                                <li>City-specific landing pages for key service areas</li>
-                                <li>Content strategy targeting identified keywords</li>
-                                <li>Schema markup implementation for enhanced visibility</li>
-                                <li>Mobile optimization for all pages</li>
-                            </ol>
-                        </div>
-                        <div>
-                            <h4 class="mb-2">Competitive Positioning</h4>
-                            <ol>
-                                <li>Enhanced family business emphasis and personal service</li>
-                                <li>Strategic showcase of 20+ years experience</li>
-                                <li>Highlighting unique capabilities and specializations</li>
-                                <li>Development of explicit service guarantees</li>
-                                <li>Increased visibility of community involvement</li>
-                            </ol>
-                        </div>
-                        <div>
-                            <h4 class="mb-2">Digital Marketing Strategy</h4>
-                            <ol>
-                                <li>Systematic review generation approach</li>
-                                <li>Consistent social media posting strategy</li>
-                                <li>Strategic local business partnerships</li>
-                                <li>Seasonal content relevant to Arizona climate</li>
-                                <li>Email nurturing campaigns for lead conversion</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Implementation Timeline Section - No Accordion -->
-            <div class="info-section mt-8 animate-fadeInUp animate-delay-2">
-                <div class="info-header">
-                    <h3>Implementation Timeline</h3>
-                </div>
-                <div class="info-body">
-                    <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));">
-                        <div class="mb-4">
-                            <h4 class="mb-2">Immediate Actions (1-30 Days)</h4>
-                            <ol>
-                                <li>Website architecture planning and design concepts</li>
-                                <li>Technical SEO audit implementation</li>
-                                <li>Initial content development for core services</li>
-                                <li>Google Business Profile optimization</li>
-                                <li>Social media profile enhancement</li>
-                            </ol>
-                        </div>
-                        <div class="mb-4">
-                            <h4 class="mb-2">Short-Term Actions (1-3 Months)</h4>
-                            <ol>
-                                <li>Complete website design and development</li>
-                                <li>Core content creation and implementation</li>
-                                <li>Lead generation system setup</li>
-                                <li>Local SEO implementation with city pages</li>
-                                <li>Review generation system implementation</li>
-                            </ol>
-                        </div>
-                        <div class="mb-4">
-                            <h4 class="mb-2">Medium-Term Actions (3-6 Months)</h4>
-                            <ol>
-                                <li>Educational content hub development</li>
-                                <li>Case study creation and implementation</li>
-                                <li>Email marketing system setup</li>
-                                <li>Advanced conversion optimization</li>
-                                <li>Expanded service description development</li>
-                            </ol>
-                        </div>
-                        <div class="mb-4">
-                            <h4 class="mb-2">Long-Term Actions (6-12 Months)</h4>
-                            <ol>
-                                <li>Ongoing content marketing implementation</li>
-                                <li>Performance analysis and optimization</li>
-                                <li>Advanced SEO techniques implementation</li>
-                                <li>Competitor strategy adjustment</li>
-                                <li>Market expansion planning</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Expected Outcomes Section - No Accordion -->
-            <div class="info-section mt-8 animate-fadeInUp animate-delay-3">
-                <div class="info-header">
-                    <h3>Expected Outcomes</h3>
-                </div>
-                <div class="info-body">
-                    <ul>
-                        <li><strong>Improved Online Visibility:</strong> Higher rankings for targeted keywords</li>
-                        <li><strong>Increased Lead Generation:</strong> More qualified leads through optimized website</li>
-                        <li><strong>Enhanced Brand Perception:</strong> Stronger market positioning against competitors</li>
-                        <li><strong>Greater Customer Engagement:</strong> More interaction through educational content</li>
-                        <li><strong>Business Growth:</strong> Expanded market share and service area reach</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+            <!-- Priority Articles Section -->
+            <div class="info-section mt-
 
     <!-- Company Information Section -->
     <section id="company" class="section bg-light">
@@ -2477,3 +2242,233 @@
                                     <ol>
                                         <li>Implement proper title tags and meta descriptions</li>
                                         <li>Fix heading structure (single H1, proper hierarchy)</li>
+                                        <li>Improve page load speed on mobile devices</li>
+                                        <li>Implement schema markup for business and services</li>
+                                        <li>Create XML sitemap and submit to Google</li>
+                                    </ol>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="mb-2">Content Enhancement</h4>
+                                    <ol>
+                                        <li>Develop comprehensive service pages for each insulation type</li>
+                                        <li>Create city-specific landing pages for service areas</li>
+                                        <li>Implement FAQ sections with schema markup</li>
+                                        <li>Add case studies and project galleries</li>
+                                        <li>Develop educational content hub on insulation topics</li>
+                                    </ol>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="mb-2">Local SEO Enhancement</h4>
+                                    <ol>
+                                        <li>Optimize Google Business Profile with complete information</li>
+                                        <li>Create consistent NAP across all directories</li>
+                                        <li>Develop systematic review generation strategy</li>
+                                        <li>Create location-specific content for service areas</li>
+                                        <li>Implement local business schema markup</li>
+                                    </ol>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="mb-2">UX Improvements</h4>
+                                    <ol>
+                                        <li>Enhance mobile responsiveness across all pages</li>
+                                        <li>Implement conversion-focused call-to-action elements</li>
+                                        <li>Add trust signals and credibility indicators</li>
+                                        <li>Improve form design for higher conversion rates</li>
+                                        <li>Implement quote calculator or service finder tool</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Summary Section -->
+    <section id="summary" class="section">
+        <div class="container">
+            <div class="section-title animate-fadeInUp">
+                <h2>Executive Summary</h2>
+            </div>
+            <div class="section-description animate-fadeInUp animate-delay-1">
+                We have completed a comprehensive analysis of Insulation Contractors of Arizona's online presence, SEO performance, and market positioning. This summary highlights our key findings and recommendations.
+            </div>
+
+            <div class="grid animate-fadeInUp animate-delay-2">
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Company Overview</h3>
+                    <ul>
+                        <li>Established business with 20+ years in the Arizona market</li>
+                        <li>Family-owned and operated by Christopher Kuhn</li>
+                        <li>Multiple locations in Glendale and Wittmann</li>
+                        <li>Diverse insulation services including spray foam, fiberglass, and cellulose</li>
+                        <li>Properly licensed, bonded, and insured with BBB accreditation</li>
+                    </ul>
+                </div>
+
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Website Assessment</h3>
+                    <ul>
+                        <li>Basic structure with limited navigation and content depth</li>
+                        <li>Content gaps in service descriptions and educational content</li>
+                        <li>Basic mobile responsiveness without optimization</li>
+                        <li>Simple contact forms without conversion optimization</li>
+                        <li>Limited imagery and visual demonstrations</li>
+                    </ul>
+                </div>
+
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>SEO Opportunities</h3>
+                    <ul>
+                        <li>Significant potential for technical SEO improvements</li>
+                        <li>Content development for comprehensive service pages</li>
+                        <li>Local SEO enhancement with city-specific landing pages</li>
+                        <li>Extensive keyword opportunities across services and locations</li>
+                        <li>Strategic implementation of schema markup</li>
+                    </ul>
+                </div>
+
+                <div class="summary-card">
+                    <div class="summary-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Competitive Landscape</h3>
+                    <ul>
+                        <li>Primary competitors: Barrier Insulation, Arizona Spray Foam</li>
+                        <li>Positioned in mid-market segment with family-business approach</li>
+                        <li>Lacks the comprehensive digital presence of competitors</li>
+                        <li>Untapped differentiation in family ownership and experience</li>
+                        <li>Specialized applications offer unique positioning opportunity</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Strategic Recommendations Section -->
+            <div class="info-section mt-8 animate-fadeInUp animate-delay-2">
+                <div class="info-header">
+                    <h3>Strategic Recommendations</h3>
+                </div>
+                <div class="info-body">
+                    <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));">
+                        <div>
+                            <h4 class="mb-2">Website Enhancements</h4>
+                            <ol>
+                                <li>Complete redesign with modern, responsive structure</li>
+                                <li>Comprehensive service pages and educational resources</li>
+                                <li>Strategic lead generation elements and optimized forms</li>
+                                <li>Visual storytelling with project galleries</li>
+                                <li>Robust testimonial showcase highlighting customer experiences</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h4 class="mb-2">SEO Implementation</h4>
+                            <ol>
+                                <li>Technical foundation with proper structure and metadata</li>
+                                <li>City-specific landing pages for key service areas</li>
+                                <li>Content strategy targeting identified keywords</li>
+                                <li>Schema markup implementation for enhanced visibility</li>
+                                <li>Mobile optimization for all pages</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h4 class="mb-2">Competitive Positioning</h4>
+                            <ol>
+                                <li>Enhanced family business emphasis and personal service</li>
+                                <li>Strategic showcase of 20+ years experience</li>
+                                <li>Highlighting unique capabilities and specializations</li>
+                                <li>Development of explicit service guarantees</li>
+                                <li>Increased visibility of community involvement</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h4 class="mb-2">Digital Marketing Strategy</h4>
+                            <ol>
+                                <li>Systematic review generation approach</li>
+                                <li>Consistent social media posting strategy</li>
+                                <li>Strategic local business partnerships</li>
+                                <li>Seasonal content relevant to Arizona climate</li>
+                                <li>Email nurturing campaigns for lead conversion</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Implementation Timeline Section -->
+            <div class="info-section mt-8 animate-fadeInUp animate-delay-2">
+                <div class="info-header">
+                    <h3>Implementation Timeline</h3>
+                </div>
+                <div class="info-body">
+                    <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));">
+                        <div class="mb-4">
+                            <h4 class="mb-2">Immediate Actions (1-30 Days)</h4>
+                            <ol>
+                                <li>Website architecture planning and design concepts</li>
+                                <li>Technical SEO audit implementation</li>
+                                <li>Initial content development for core services</li>
+                                <li>Google Business Profile optimization</li>
+                                <li>Social media profile enhancement</li>
+                            </ol>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="mb-2">Short-Term Actions (1-3 Months)</h4>
+                            <ol>
+                                <li>Complete website design and development</li>
+                                <li>Core content creation and implementation</li>
+                                <li>Lead generation system setup</li>
+                                <li>Local SEO implementation with city pages</li>
+                                <li>Review generation system implementation</li>
+                            </ol>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="mb-2">Medium-Term Actions (3-6 Months)</h4>
+                            <ol>
+                                <li>Educational content hub development</li>
+                                <li>Case study creation and implementation</li>
+                                <li>Email marketing system setup</li>
+                                <li>Advanced conversion optimization</li>
+                                <li>Expanded service description development</li>
+                            </ol>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="mb-2">Long-Term Actions (6-12 Months)</h4>
+                            <ol>
+                                <li>Ongoing content marketing implementation</li>
+                                <li>Performance analysis and optimization</li>
+                                <li>Advanced SEO techniques implementation</li>
+                                <li>Competitor strategy adjustment</li>
+                                <li>Market expansion planning</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Expected Outcomes Section -->
+            <div class="info-section mt-8 animate-fadeInUp animate-delay-3">
+                <div class="info-header">
+                    <h3>Expected Outcomes</h3>
+                </div>
+                <div class="info-body">
+                    <ul>
+                        <li><strong>Improved Online Visibility:</strong> Higher rankings for targeted keywords</li>
+                        <li><strong>Increased Lead Generation:</strong> More qualified leads through optimized website</li>
+                        <li><strong>Enhanced Brand Perception:</strong> Stronger market positioning against competitors</li>
+                        <li><strong>Greater Customer Engagement:</strong> More interaction through educational content</li>
+                        <li><strong>Business Growth:</strong> Expanded market share and service area reach</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

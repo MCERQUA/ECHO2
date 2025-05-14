@@ -1,0 +1,626 @@
+{
+  "projectStatus": {
+    "analysisPhase": "Completed on March 26, 2025",
+    "implementationPhase": "In progress",
+    "projectLead": "Mike Cerqua",
+    "budget": "$500 per month (ongoing)",
+    "completedTasks": {
+      "analysisAndResearch": {
+        "cost": "$250",
+        "status": "Completed",
+        "items": [
+          "Comprehensive website review and analysis",
+          "Technical SEO audit",
+          "Keyword research and analysis",
+          "Competitor analysis",
+          "Company information gathering",
+          "Development of detailed project plan"
+        ]
+      },
+      "frontEndUpdates": {
+        "cost": "$50",
+        "status": "Completed",
+        "items": [
+          "Added Duct-Cleaning to home page",
+          "Added Agricultural Tank Spray Foam to Home Page",
+          "Added Events Menu Option and Maricopa County Home Shows"
+        ]
+      },
+      "contentDevelopment": {
+        "cost": "$50",
+        "status": "In Progress",
+        "items": [
+          "Blog content strategy and planning (Completed)",
+          "Text completed for blog article: 'The Complete Guide to Home Insulation Types in Arizona' (Completed)",
+          "Selecting pictures for the article and posting to website (In Progress)",
+          "Development of blog article topics and outlines for 6 additional articles (Completed)",
+          "External URL research for content development (In Progress)",
+          "Blog content creation for priority articles (In Progress)"
+        ]
+      }
+    },
+    "currentPriorities": {
+      "localCitations": {
+        "package": "Premium Package - 200 Citations",
+        "cost": "$350",
+        "status": "Ordered"
+      },
+      "analyticsSetup": {
+        "tools": [
+          "Google Search Console",
+          "Google Analytics",
+          "SEMrush"
+        ],
+        "status": "In Progress"
+      }
+    },
+    "pendingTasks": {
+      "websiteDevelopment": [
+        {"type": "Home Page", "quantity": 1, "description": "Re-design landing page content", "status": "Not Started", "price": "$100"},
+        {"type": "Navigation", "quantity": 1, "description": "Replace menu (current is glitchy on PC)", "status": "Not Started", "price": "$50"},
+        {"type": "Core Services", "quantity": 3, "description": "Redesign service pages (SPF, fiberglass, removal)", "status": "Not Started", "price": "$100 each"},
+        {"type": "Additional Services", "quantity": 4, "description": "Create service pages (closed-cell, open-cell, drill & fill, blown-in, duct cleaning)", "status": "Not Started", "price": "$100 each"},
+        {"type": "Specialty Services", "quantity": 9, "description": "Create pages for tanks, shipping containers, attics, crawlspaces, garages, overhangs, basements, headers, air-sealing", "status": "Not Started", "price": "$100 each"},
+        {"type": "Location Pages", "quantity": "TBD", "description": "Location-specific landing pages", "status": "Not Started", "price": "$100 each"},
+        {"type": "Gallery", "quantity": 1, "description": "Project gallery with before/after imagery", "status": "Not Started", "price": "$100"},
+        {"type": "Testimonials", "quantity": 1, "description": "Testimonial showcase section", "status": "Not Started", "price": "$100"},
+        {"type": "Events", "quantity": 1, "description": "Add 3 more events to the Events Page (4 total)", "status": "Not Started", "price": "$25"}
+      ]
+    },
+    "recommendedPackages": {
+      "essential": {
+        "components": [
+          "Home Page Redesign ($100)",
+          "Navigation Menu Update ($50)",
+          "3 Core Service Page Redesigns ($300)",
+          "Events Page Update ($25)",
+          "Basic SEO Implementation (Technical SEO)",
+          "100 Local Citations ($200)"
+        ],
+        "value": "$675"
+      },
+      "growth": {
+        "components": [
+          "Everything in Essential Package",
+          "4 Additional Service Pages ($400)",
+          "Gallery Page ($100)",
+          "Testimonials Page ($100)",
+          "200 Local Citations ($350) instead of 100",
+          "Local SEO Optimization (Google Business Profile)",
+          "Email Marketing Setup"
+        ],
+        "value": "$1,425"
+      },
+      "premium": {
+        "components": [
+          "Everything in Growth Package",
+          "All 9 Specialty Service Pages ($900)",
+          "3 Location-Specific Landing Pages ($300)",
+          "200 Local Citations ($350) instead of 100",
+          "Social Media Revitalization",
+          "Complete SEO Implementation",
+          "Video Content Creation"
+        ],
+        "value": "$2,825"
+      }
+    }
+  },
+  "company": {
+    "name": "Insulation Contractors of Arizona LLC",
+    "type": "Limited Liability Company",
+    "industry": "Insulation Contractor",
+    "yearsInBusiness": "20+ years",
+    "ownership": {
+      "type": "Family-owned and operated",
+      "owner": "Christopher Kuhn"
+    },
+    "licensing": {
+      "ROC": "https://roc.force.com/AZRoc/s/contractor-search?licenseId=a0o8y0000005GtuAAE",
+      "status": "Licensed, Bonded, and Insured",
+      "BBB": "Accredited Business"
+    },
+    "locations": [
+      {
+        "type": "Primary",
+        "address": "10616 N 50th Ave, Glendale, AZ 85304",
+        "phone": "623-241-1939",
+        "email": "insulationcontractorsofaz@gmail.com"
+      },
+      {
+        "type": "Secondary",
+        "address": "20944 W Jomax Rd, Wittmann, AZ 85361",
+        "phone": "(602) 907-8995",
+        "email": "insulationcontractorsofaz@gmail.com"
+      }
+    ],
+    "hours": "Monday-Sunday: 7:00 AM – 9:00 PM"
+  },
+  "services": {
+    "sprayFoam": {
+      "types": [
+        "Open Cell Spray Foam Insulation",
+        "Closed Cell Spray Foam Insulation",
+        "Drill and Fill Spray Foam Insulation (Retrofoam)"
+      ],
+      "benefits": [
+        "Energy efficiency",
+        "Air sealing",
+        "Moisture control",
+        "Sound reduction"
+      ]
+    },
+    "fiberglass": {
+      "types": [
+        "Fiberglass Batt Insulation",
+        "Blown-in Fiberglass Insulation"
+      ],
+      "benefits": [
+        "Cost-effective",
+        "Non-flammable",
+        "Common in attics and walls"
+      ]
+    },
+    "otherInsulation": {
+      "types": [
+        "Cellulose Blown-in Insulation",
+        "Garage Insulation",
+        "Insulation Removal",
+        "Attic Insulation",
+        "Wall Insulation"
+      ]
+    },
+    "specializedApplications": [
+      "Shipping Container Insulation (Works with Durabox Storage)",
+      "Commercial Building Insulation",
+      "New Construction Insulation",
+      "Custom Home Insulation"
+    ]
+  },
+  "onlinePresence": {
+    "website": {
+      "url": "https://insulationcontractorsofarizona.com/",
+      "analysis": {
+        "design": "Basic design with limited visual coherence",
+        "userExperience": "Basic navigation with core service pages",
+        "contentQuality": "Informal and conversational but has grammar and punctuation issues",
+        "conversionElements": "Contact forms present but basic functionality",
+        "strengths": [
+          "Covers all core insulation services",
+          "Clear contact information",
+          "Service area clearly defined"
+        ],
+        "weaknesses": [
+          "Outdated design with limited visual appeal",
+          "Inconsistent content organization",
+          "Limited educational value for visitors",
+          "Weak SEO implementation",
+          "No clear unique selling proposition"
+        ]
+      }
+    },
+    "socialMedia": {
+      "facebook": {
+        "url": "https://www.facebook.com/InsulationContractorsAZ",
+        "likes": "1.2K",
+        "followers": "1.6K",
+        "reviews": "58 reviews with 100% recommend rate"
+      },
+      "instagram": {
+        "url": "http://instagram.com/insulation_contractors_of_az/",
+        "followers": "149",
+        "posts": "16"
+      },
+      "yelp": {
+        "url": "http://yelp.com/biz/insulation-contractors-of-arizona-glendale"
+      }
+    }
+  },
+  "serviceAreas": [
+    "Glendale",
+    "Phoenix",
+    "Peoria",
+    "Tempe",
+    "Buckeye",
+    "Ahwatukee",
+    "Chandler",
+    "Mesa",
+    "Apache Junction",
+    "Scottsdale",
+    "New River",
+    "Paradise Valley",
+    "Wittmann",
+    "Maricopa County"
+  ],
+  "companyValues": {
+    "qualitySafety": [
+      "Safety and proper preparation on job sites",
+      "Accommodation of special requests",
+      "Safety First emphasis",
+      "Skilled technicians with precision application"
+    ],
+    "experienceExpertise": [
+      "20 years of experience in Arizona insulation industry",
+      "Knowledge of proper insulation for Arizona's climate",
+      "Experience with various building types"
+    ],
+    "customerService": [
+      "Extended business hours (7 AM - 9 PM, 7 days a week)",
+      "Positive customer reviews",
+      "Family-owned and operated business"
+    ],
+    "communityInvolvement": [
+      "Sponsors local sports teams (e.g., Ironwood High School Softball)",
+      "Connected to the local Arizona community"
+    ]
+  },
+  "businessPartnerships": [
+    "Durabox Storage (shipping container insulation)",
+    "Ironwood High School Softball team (sponsorship)",
+    "Sprayfoaminsurance.com (insurance certificates)"
+  ],
+  "contactInfo": {
+    "phone": "623-241-1939",
+    "email": "insulationcontractorsofaz@gmail.com",
+    "website": "insulationcontractorsofarizona.com",
+    "facebook": "https://www.facebook.com/InsulationContractorsAZ",
+    "instagram": "@insulation_contractors_of_az"
+  },
+  "seo": {
+    "currentStatus": {
+      "titleTags": {
+        "homepage": "Insulation Contractors Of Arizona Homepage | Insulation Contractors of Arizona",
+        "issues": [
+          "Redundant title with duplicate company name",
+          "Exceeds optimal length"
+        ]
+      },
+      "metaDescriptions": {
+        "status": "No optimized meta descriptions visible",
+        "issues": [
+          "Default descriptions likely generated by WordPress",
+          "Missing opportunity for compelling call-to-action and keywords"
+        ]
+      },
+      "headerTags": {
+        "issues": [
+          "Multiple H1 tags on homepage",
+          "Inconsistent heading hierarchy",
+          "Headers contain relevant terms but not optimized for search intent"
+        ]
+      },
+      "urlStructure": {
+        "format": "Simple and clean URLs (e.g., `/spray-foam-insulation/`, `/fiberglass-insulation/`)",
+        "issues": ["Lack geographic modifiers"]
+      },
+      "contentAnalysis": {
+        "keywordDensity": "Low strategic keyword usage",
+        "contentLength": "Moderate content but lacks comprehensive information",
+        "uniqueContent": "Original but not necessarily valuable or educational",
+        "readability": "Informal style with grammar issues that may impact SEO"
+      },
+      "internalLinking": {
+        "status": "Minimal internal linking between related service pages",
+        "issues": [
+          "Missing opportunities to establish content hierarchy",
+          "No evident cornerstone content strategy"
+        ]
+      },
+      "imageOptimization": {
+        "filenames": "Generic (e.g., `rsw_388h_194cg_true.webp`) lacking descriptive keywords",
+        "altText": "Missing or inadequate alt text for most images",
+        "fileSize": "Not optimized for speed"
+      }
+    },
+    "technicalSeo": {
+      "siteStructure": {
+        "cms": "WordPress",
+        "organization": "No evident category or tag organization",
+        "structuredData": "Limited structured data or schema markup"
+      },
+      "mobileResponsiveness": {
+        "status": "Site appears to use responsive design",
+        "needs": "Formal testing required"
+      },
+      "pageSpeed": {
+        "assessment": "Not formally tested",
+        "likelyIssues": [
+          "Unoptimized images",
+          "Potentially excessive plugin usage",
+          "No visible content delivery network"
+        ]
+      },
+      "indexability": {
+        "barriers": "No obvious indexing barriers",
+        "robots": "Not analyzed",
+        "sitemap": "Not identified"
+      },
+      "schemaMarkup": {
+        "status": "No evident implementation",
+        "needs": [
+          "LocalBusiness schema",
+          "Service schema",
+          "Product schema"
+        ]
+      },
+      "httpsImplementation": {
+        "status": "Site uses secure HTTPS protocol",
+        "security": "Appears properly implemented"
+      }
+    },
+    "localSeo": {
+      "googleBusinessProfile": {
+        "status": "Appears to have a Google Business listing",
+        "evidence": "Referenced on website with link to reviews"
+      },
+      "napConsistency": {
+        "status": "Name, Address, Phone number present in footer",
+        "format": "Consistent across pages",
+        "issues": "Multiple locations may need clearer differentiation"
+      },
+      "localKeywords": {
+        "presence": "Some city mentions (Glendale, Phoenix, etc.)",
+        "usage": "Limited use of 'Arizona' in content",
+        "missing": "Neighborhood-specific targeting"
+      },
+      "citationsDirectories": {
+        "known": "BBB listing",
+        "status": "No evidence of broader citation strategy"
+      }
+    },
+    "keywordOpportunities": {
+      "primaryServiceKeywords": [
+        "spray foam insulation Arizona",
+        "fiberglass insulation Phoenix",
+        "attic insulation Glendale AZ",
+        "insulation contractor Arizona"
+      ],
+      "longTailOpportunities": [
+        "best insulation for Arizona summer heat",
+        "cost of spray foam insulation in Phoenix",
+        "energy saving insulation Arizona desert",
+        "R-value requirements Arizona homes"
+      ],
+      "localKeywords": [
+        "Neighborhood-specific terms",
+        "'near me' variations",
+        "Arizona climate-specific insulation terms"
+      ],
+      "desertSpecificKeywords": [
+        "desert climate insulation arizona",
+        "extreme heat insulation phoenix",
+        "southwest climate insulation solutions",
+        "arizona summer insulation",
+        "high temperature insulation solutions",
+        "desert home energy efficiency",
+        "cooling focused insulation arizona",
+        "monsoon season insulation phoenix",
+        "arid climate insulation needs",
+        "dust control insulation arizona"
+      ],
+      "costValueKeywords": [
+        "insulation roi phoenix",
+        "cost to insulate home arizona",
+        "fiberglass insulation cost phoenix",
+        "blown-in insulation pricing arizona",
+        "spray foam vs fiberglass cost phoenix",
+        "insulation payback period arizona"
+      ],
+      "environmentalHealthKeywords": [
+        "eco-friendly insulation arizona",
+        "green insulation phoenix",
+        "sustainable insulation arizona",
+        "non-toxic insulation phoenix",
+        "environmentally friendly insulation arizona",
+        "healthy home insulation phoenix"
+      ],
+      "projectSpecificKeywords": [
+        "insulating arizona ranch style home",
+        "spanish style home insulation phoenix",
+        "two-story home insulation arizona",
+        "bungalow insulation phoenix",
+        "adobe home insulation arizona",
+        "stucco exterior insulation phoenix"
+      ],
+      "competitorComparisonKeywords": [
+        "insulation contractors of arizona vs barrier insulation",
+        "compare spray foam companies phoenix",
+        "best insulation company in arizona",
+        "top rated insulation contractors phoenix",
+        "insulation contractors of arizona reviews"
+      ]
+    }
+  },
+  "competitors": {
+    "barrierInsulation": {
+      "website": "barrierinsulation.com",
+      "profile": {
+        "experience": "Over 25 years",
+        "credentials": "Licensed, bonded, and insured"
+      },
+      "services": [
+        "Blown-in fiberglass insulation",
+        "Spray foam insulation",
+        "Rolled batt insulation",
+        "Radiant barrier insulation",
+        "Insulation removal",
+        "Energy audits",
+        "Solar services"
+      ],
+      "valueProposition": [
+        "Guarantees to reduce energy consumption by at least 25%",
+        "Offers 'Barrier Challenge' - a five-point energy audit",
+        "Free quotes/estimates",
+        "Tax credit assistance (up to 30% on qualifying purchases)",
+        "Financing options",
+        "Same-day insulation removal and reinstallation (4-5 hours)"
+      ],
+      "onlinePresence": [
+        "Professional website with detailed service pages",
+        "Multiple certifications and partnerships displayed",
+        "Clear call-to-action and contact information",
+        "Focuses heavily on energy savings messaging"
+      ],
+      "advantages": [
+        "Broader service offerings (solar, energy audits)",
+        "More established (25+ years vs. 20 years)",
+        "Financing options",
+        "Same-day service for removal/reinstallation",
+        "More comprehensive website with detailed information",
+        "Tax credit guidance"
+      ],
+      "disadvantages": [
+        "May have higher prices due to expanded services",
+        "Less focused specifically on insulation (diversified into other areas)",
+        "May be less personal/family-oriented than ICA"
+      ]
+    },
+    "arizonaSprayFoam": {
+      "website": "arizonasprayfoam.com",
+      "profile": {
+        "specialization": "Spray foam insulation in Arizona",
+        "ownership": "Family-owned and operated",
+        "position": "Advertises as the 'definitive leader in spray foam insulation'"
+      },
+      "services": [
+        "Open cell spray foam",
+        "Closed cell spray foam",
+        "Attic insulation",
+        "Wall insulation",
+        "Commercial insulation",
+        "New construction insulation"
+      ],
+      "valueProposition": [
+        "Spray foam expertise and specialization",
+        "Free estimates",
+        "Energy efficiency focus",
+        "Lifetime warranty on spray foam products",
+        "Eco-friendly options"
+      ],
+      "onlinePresence": [
+        "Modern, focused website",
+        "Before/after gallery",
+        "Educational content about spray foam benefits",
+        "Strong emphasis on energy savings",
+        "Video demonstrations"
+      ],
+      "advantages": [
+        "Specialization in spray foam (perceived expertise)",
+        "Strong focus on education about spray foam",
+        "Lifetime warranty offering",
+        "Clear process explanation",
+        "Better visual presentation of results"
+      ],
+      "disadvantages": [
+        "Limited insulation options (primarily spray foam)",
+        "May not offer comprehensive insulation removal",
+        "Smaller service area than some competitors"
+      ]
+    },
+    "greenID": {
+      "website": "greenid.com",
+      "profile": {
+        "focus": "Energy efficiency and home performance company",
+        "positioning": "Home energy assessment and improvement company",
+        "serviceArea": "Greater Phoenix area"
+      },
+      "services": [
+        "Home energy audits",
+        "Insulation services",
+        "Air sealing",
+        "Duct sealing and repair",
+        "HVAC assessments and upgrades",
+        "Energy efficiency consulting"
+      ],
+      "valueProposition": [
+        "Whole-home approach to energy efficiency",
+        "Certified energy auditors",
+        "Rebate assistance",
+        "Scientific testing and diagnostics",
+        "Data-driven solutions"
+      ],
+      "onlinePresence": [
+        "Educational website focused on energy efficiency",
+        "Case studies with measurable results",
+        "Blog with energy-saving tips",
+        "Focus on comfort and health, not just savings",
+        "Utility rebate information"
+      ],
+      "advantages": [
+        "Comprehensive energy assessment capabilities",
+        "Scientific approach with testing equipment",
+        "Stronger focus on whole-home performance",
+        "Utility rebate navigation assistance",
+        "More educational content about energy efficiency"
+      ],
+      "disadvantages": [
+        "Less specialization in insulation specifically",
+        "Potentially higher prices due to comprehensive approach",
+        "May be perceived as less installation-focused and more assessment-focused"
+      ]
+    },
+    "forUBuildersInsulation": {
+      "website": "forubuilders.com",
+      "profile": {
+        "ownership": "Family-owned and operated since 1998",
+        "serviceArea": "Phoenix metro area and surrounding communities",
+        "credentials": "Licensed, bonded and insured"
+      },
+      "services": [
+        "Spray foam insulation",
+        "Fiberglass insulation",
+        "Blown-in insulation",
+        "Insulation removal",
+        "Energy audits",
+        "Air sealing"
+      ],
+      "valueProposition": [
+        "Experience and reliability",
+        "Free estimates",
+        "Guaranteed workmanship",
+        "Quick turnaround times",
+        "Energy-efficiency focused"
+      ],
+      "onlinePresence": [
+        "Basic but functional website",
+        "Customer testimonials",
+        "Project gallery",
+        "Educational resources about insulation types",
+        "Energy savings calculator"
+      ],
+      "advantages": [
+        "Established reputation in the market",
+        "Diverse insulation options",
+        "Quick service turnaround",
+        "Competitive pricing",
+        "Builder relationships"
+      ],
+      "disadvantages": [
+        "Less emphasis on specialized applications",
+        "More basic online presence",
+        "Less prominent branding"
+      ]
+    }
+  },
+  "competitiveOpportunities": {
+    "immediate": [
+      "Online Presence Enhancement - Improve website with educational content, project galleries, and service details",
+      "Specialty Highlighting - Better showcase 20+ years of experience and family-owned aspects",
+      "Energy Efficiency Messaging - Emphasize energy savings potential",
+      "Visual Documentation - Add before/after imagery and project results"
+    ],
+    "mediumTerm": [
+      "Service Expansion - Consider adding energy audits or assessment services",
+      "Financing Options - Offer financing to remove purchase barriers",
+      "Guarantees/Warranties - Develop explicit guarantees",
+      "Customer Testimonial Program - Systematically collect and showcase testimonials",
+      "Local Specialization - Emphasize knowledge of specific Arizona cities and climate conditions"
+    ],
+    "longTerm": [
+      "Energy Efficiency Partnership - Partner with utility companies for rebate programs",
+      "Certification Expansion - Pursue additional industry certifications",
+      "Commercial Specialization - Develop stronger commercial insulation expertise",
+      "Specialized Applications - Further develop container insulation and other specialty applications",
+      "Technology Integration - Implement thermal imaging and testing equipment"
+    ]
+  }
+}

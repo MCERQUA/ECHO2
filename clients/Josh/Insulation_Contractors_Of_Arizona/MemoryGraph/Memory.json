@@ -105,6 +105,118 @@
       }
     }
   },
+  "projectFileIndex": {
+    "lastUpdated": "May 13, 2025",
+    "rootDirectory": "clients/Josh/Insulation_Contractors_Of_Arizona",
+    "mainFiles": [
+      {
+        "name": "README.md",
+        "description": "High-level project overview with documentation index"
+      },
+      {
+        "name": "blog_article_plan.md",
+        "description": "Comprehensive plan for blog content creation with 15 planned articles"
+      },
+      {
+        "name": "company_information.md",
+        "description": "Detailed information about Insulation Contractors of Arizona"
+      },
+      {
+        "name": "competitor_analysis.md", 
+        "description": "Analysis of main competitors including Barrier Insulation and Arizona Spray Foam"
+      },
+      {
+        "name": "executive_summary.md",
+        "description": "High-level overview of findings and strategic recommendations"
+      },
+      {
+        "name": "jobs_todo_list.md",
+        "description": "Comprehensive list of implementation tasks and content creation needs"
+      },
+      {
+        "name": "project_plan.md",
+        "description": "Detailed project plan with completed tasks and next steps"
+      },
+      {
+        "name": "seo_analysis.md",
+        "description": "Technical and on-page SEO analysis with recommendations"
+      },
+      {
+        "name": "seo_keywords_part2.md",
+        "description": "Extended keyword lists including long-tail and industry-specific terms"
+      },
+      {
+        "name": "seo_report.md",
+        "description": "Detailed SEO report with findings and recommendations"
+      },
+      {
+        "name": "website_analysis.md",
+        "description": "Analysis of the current website performance and opportunities"
+      },
+      {
+        "name": "website_analysis_review.md",
+        "description": "Follow-up review of website analysis findings"
+      },
+      {
+        "name": "website_optimization_tasks.md",
+        "description": "Specific tasks for optimizing the website"
+      },
+      {
+        "name": "website_review.md",
+        "description": "Comprehensive review of the website"
+      },
+      {
+        "name": "Blog-image-descriptions",
+        "description": "Detailed descriptions for blog article images across 15 planned articles"
+      }
+    ],
+    "directories": [
+      {
+        "name": "MemoryGraph",
+        "description": "Contains Memory.json for persistent project knowledge",
+        "files": [
+          {
+            "name": "Memory.json",
+            "description": "Main memory file containing all project information"
+          }
+        ]
+      },
+      {
+        "name": "research",
+        "description": "Research materials and content planning",
+        "files": [
+          {
+            "name": "insulation-blog-1-plan.md",
+            "description": "Detailed plan for the first cornerstone blog article"
+          }
+        ]
+      },
+      {
+        "name": "website report",
+        "description": "Website analysis reports in HTML format",
+        "files": [
+          {
+            "name": "insulation-report-website.html",
+            "description": "HTML report of the website analysis"
+          }
+        ]
+      },
+      {
+        "name": "website-report",
+        "description": "Alternative format of website analysis reports",
+        "files": [
+          {
+            "name": "index.html",
+            "description": "Main HTML report of the website analysis"
+          },
+          {
+            "name": "insulation-report-website.html",
+            "description": "Detailed HTML report of the website analysis"
+          }
+        ]
+      }
+    ]
+  },
   "company": {
     "name": "Insulation Contractors of Arizona LLC",
     "type": "Limited Liability Company",

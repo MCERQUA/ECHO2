@@ -192,7 +192,8 @@
         "Setup website in SEMrush for monitoring",
         "Connected Google accounts",
         "Setup tracking for currently ranked keywords",
-        "Setup company email for Chris@foamaz.com"
+        "Setup company email for Chris@foamaz.com",
+        "Created published blog posts tracking document in GitHub at clients/Josh/Insulation_Contractors_Of_Arizona/website_analysis/published_blog_posts.md"
       ]
     },
     "ICA_Current_Priorities": {
@@ -262,7 +263,8 @@
         "Mobile responsive but not fully optimized",
         "Simple contact forms without optimization for lead generation",
         "Limited imagery and before/after demonstrations",
-        "Significant opportunities for improvement in technical SEO elements"
+        "Significant opportunities for improvement in technical SEO elements",
+        "Has 6 published blog posts focusing primarily on spray foam insulation and location-specific content"
       ]
     },
     "ICA_Client_Communications": {
@@ -298,6 +300,20 @@
         "Document technical configuration steps (Google Search Console, Analytics, SEMrush, email)",
         "Create timeline and checklist for website implementation process",
         "Organize documentation to serve as template for future website projects"
+      ]
+    },
+    "ICA_Published_Blog_Content": {
+      "name": "ICA_Published_Blog_Content",
+      "entityType": "WebAsset",
+      "observations": [
+        "Tracking document created at clients/Josh/Insulation_Contractors_Of_Arizona/website_analysis/published_blog_posts.md",
+        "Six blog posts currently published on the website as of May 14, 2025",
+        "Most recent: 'Arizona's Ultimate Guide: 7 Insulation Types That Slash Summer Cooling Bills' (May 14, 2025)",
+        "Five posts published on December 27, 2024 focused on spray foam insulation",
+        "Strong focus on location-specific content (Sun Lakes, Agritopia, Gilbert, Chandler)",
+        "Emphasis on energy efficiency and cost savings in article topics",
+        "Content gaps identified: fiberglass insulation, specific home areas, seasonal content, additional location content, commercial applications",
+        "Internal linking strategy documented in the tracking file"
       ]
     }
   },
@@ -446,6 +462,21 @@
       "from": "ICA_Project_Documentation",
       "to": "ICA_Project_Status",
       "relationType": "enhances"
+    },
+    {
+      "from": "ICA_Websites",
+      "to": "ICA_Published_Blog_Content",
+      "relationType": "contains"
+    },
+    {
+      "from": "ICA_Published_Blog_Content",
+      "to": "ICA_SEO_Strategy",
+      "relationType": "supports"
+    },
+    {
+      "from": "ICA_Completed_Tasks",
+      "to": "ICA_Published_Blog_Content",
+      "relationType": "tracks"
     }
   ]
 }

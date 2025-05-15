@@ -204,7 +204,9 @@
         "Select pictures for blog article and post to website",
         "Complete external URL research for content development",
         "Create content for priority blog articles",
-        "Document technical configuration process as template for future projects"
+        "Document technical configuration process as template for future projects",
+        "Create website page inventory to track existing and planned pages",
+        "Ensure all content uses only valid, existing URLs (no fake links)"
       ]
     },
     "ICA_Pending_Tasks": {
@@ -219,7 +221,8 @@
         "Create location-specific landing pages ($100 each)",
         "Create project gallery with before/after imagery ($100)",
         "Create testimonial showcase section ($100)",
-        "Add 3 more events to Events Page ($25)"
+        "Add 3 more events to Events Page ($25)",
+        "Create service pages for previously linked non-existent URLs"
       ]
     },
     "ICA_SEO_Strategy": {
@@ -231,7 +234,8 @@
         "Local SEO enhancements: optimize Google Business Profile, build high-quality local citations",
         "Conversion optimization: create linkable content assets, focus on mobile optimization, improve call-to-action elements",
         "200 Citations package ordered as first major SEO implementation",
-        "Keyword tracking and monitoring set up in SEMrush"
+        "Keyword tracking and monitoring set up in SEMrush",
+        "Never link to non-existent pages - critical for SEO performance"
       ]
     },
     "ICA_Competitors": {
@@ -314,6 +318,17 @@
         "Emphasis on energy efficiency and cost savings in article topics",
         "Content gaps identified: fiberglass insulation, specific home areas, seasonal content, additional location content, commercial applications",
         "Internal linking strategy documented in the tracking file"
+      ]
+    },
+    "ICA_Website_Pages": {
+      "name": "ICA_Website_Pages",
+      "entityType": "WebAsset",
+      "observations": [
+        "Current pages: Home page, Contact page",
+        "Planned pages (do not exist yet): /energy-efficient-insulation/, /attic-insulation/, /phoenix-insulation-services/, /spray-foam-insulation/, /fiberglass-insulation/, /glendale-insulation-services/, /peoria-insulation-services/, /energy-audits/, /energy-saving-tips/, /air-sealing/, /insulation-replacement/, /commercial-insulation-services/",
+        "IMPORTANT: Never link to pages that don't exist yet in content - only use confirmed, existing URLs",
+        "Need to create comprehensive inventory of all existing pages on the website",
+        "Plan to track all internal links used in content to ensure they point to valid pages"
       ]
     }
   },
@@ -477,6 +492,21 @@
       "from": "ICA_Completed_Tasks",
       "to": "ICA_Published_Blog_Content",
       "relationType": "tracks"
+    },
+    {
+      "from": "ICA_Website_Pages",
+      "to": "ICA_Websites",
+      "relationType": "details"
+    },
+    {
+      "from": "ICA_Website_Pages",
+      "to": "ICA_Pending_Tasks",
+      "relationType": "informs"
+    },
+    {
+      "from": "ICA_Website_Pages",
+      "to": "ICA_SEO_Strategy",
+      "relationType": "supports"
     }
   ]
 }

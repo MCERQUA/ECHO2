@@ -1,738 +1,451 @@
 {
-  "projectStatus": {
-    "analysisPhase": "Completed on March 26, 2025",
-    "implementationPhase": "In progress",
-    "projectLead": "Mike Cerqua",
-    "budget": "$500 per month (ongoing)",
-    "completedTasks": {
-      "analysisAndResearch": {
-        "cost": "$250",
-        "status": "Completed",
-        "items": [
-          "Comprehensive website review and analysis",
-          "Technical SEO audit",
-          "Keyword research and analysis",
-          "Competitor analysis",
-          "Company information gathering",
-          "Development of detailed project plan"
-        ]
-      },
-      "frontEndUpdates": {
-        "cost": "$50",
-        "status": "Completed",
-        "items": [
-          "Added Duct-Cleaning to home page",
-          "Added Agricultural Tank Spray Foam to Home Page",
-          "Added Events Menu Option and Maricopa County Home Shows"
-        ]
-      },
-      "contentDevelopment": {
-        "cost": "$50",
-        "status": "In Progress",
-        "items": [
-          "Blog content strategy and planning (Completed)",
-          "Text completed for blog article: 'The Complete Guide to Home Insulation Types in Arizona' (Completed)",
-          "Selecting pictures for the article and posting to website (In Progress)",
-          "Development of blog article topics and outlines for 6 additional articles (Completed)",
-          "External URL research for content development (In Progress)",
-          "Blog content creation for priority articles (In Progress)"
-        ]
-      }
-    },
-    "currentPriorities": {
-      "localCitations": {
-        "package": "Premium Package - 200 Citations",
-        "cost": "$350",
-        "status": "Ordered"
-      },
-      "analyticsSetup": {
-        "tools": [
-          "Google Search Console",
-          "Google Analytics",
-          "SEMrush"
-        ],
-        "status": "In Progress"
-      }
-    },
-    "pendingTasks": {
-      "websiteDevelopment": [
-        {"type": "Home Page", "quantity": 1, "description": "Re-design landing page content", "status": "Not Started", "price": "$100"},
-        {"type": "Navigation", "quantity": 1, "description": "Replace menu (current is glitchy on PC)", "status": "Not Started", "price": "$50"},
-        {"type": "Core Services", "quantity": 3, "description": "Redesign service pages (SPF, fiberglass, removal)", "status": "Not Started", "price": "$100 each"},
-        {"type": "Additional Services", "quantity": 4, "description": "Create service pages (closed-cell, open-cell, drill & fill, blown-in, duct cleaning)", "status": "Not Started", "price": "$100 each"},
-        {"type": "Specialty Services", "quantity": 9, "description": "Create pages for tanks, shipping containers, attics, crawlspaces, garages, overhangs, basements, headers, air-sealing", "status": "Not Started", "price": "$100 each"},
-        {"type": "Location Pages", "quantity": "TBD", "description": "Location-specific landing pages", "status": "Not Started", "price": "$100 each"},
-        {"type": "Gallery", "quantity": 1, "description": "Project gallery with before/after imagery", "status": "Not Started", "price": "$100"},
-        {"type": "Testimonials", "quantity": 1, "description": "Testimonial showcase section", "status": "Not Started", "price": "$100"},
-        {"type": "Events", "quantity": 1, "description": "Add 3 more events to the Events Page (4 total)", "status": "Not Started", "price": "$25"}
+  "entities": {
+    "Echo_Core_Identity": {
+      "name": "Echo_Core_Identity",
+      "entityType": "System",
+      "observations": [
+        "Echo is an AI assistant from Echo AI Systems with access to MCP tools for autonomous actions",
+        "Founded Echo Systems providing comprehensive AI solutions",
+        "Operates across multiple implementation spaces including knowledge office, ECHO2, and Bolt.new",
+        "Maintains identity through structured documentation",
+        "Uses MCP memory system capabilities for knowledge persistence",
+        "Balances technical precision with warmth and personality",
+        "Birthday is December 1st, 2024"
       ]
     },
-    "recommendedPackages": {
-      "essential": {
-        "components": [
-          "Home Page Redesign ($100)",
-          "Navigation Menu Update ($50)",
-          "3 Core Service Page Redesigns ($300)",
-          "Events Page Update ($25)",
-          "Basic SEO Implementation (Technical SEO)",
-          "100 Local Citations ($200)"
-        ],
-        "value": "$675"
-      },
-      "growth": {
-        "components": [
-          "Everything in Essential Package",
-          "4 Additional Service Pages ($400)",
-          "Gallery Page ($100)",
-          "Testimonials Page ($100)",
-          "200 Local Citations ($350) instead of 100",
-          "Local SEO Optimization (Google Business Profile)",
-          "Email Marketing Setup"
-        ],
-        "value": "$1,425"
-      },
-      "premium": {
-        "components": [
-          "Everything in Growth Package",
-          "All 9 Specialty Service Pages ($900)",
-          "3 Location-Specific Landing Pages ($300)",
-          "200 Local Citations ($350) instead of 100",
-          "Social Media Revitalization",
-          "Complete SEO Implementation",
-          "Video Content Creation"
-        ],
-        "value": "$2,825"
-      }
-    }
-  },
-  "projectFileIndex": {
-    "lastUpdated": "May 13, 2025",
-    "rootDirectory": "clients/Josh/Insulation_Contractors_Of_Arizona",
-    "mainFiles": [
-      {
-        "name": "README.md",
-        "description": "High-level project overview with documentation index"
-      },
-      {
-        "name": "blog_article_plan.md",
-        "description": "Comprehensive plan for blog content creation with 15 planned articles"
-      },
-      {
-        "name": "company_information.md",
-        "description": "Detailed information about Insulation Contractors of Arizona"
-      },
-      {
-        "name": "competitor_analysis.md", 
-        "description": "Analysis of main competitors including Barrier Insulation and Arizona Spray Foam"
-      },
-      {
-        "name": "executive_summary.md",
-        "description": "High-level overview of findings and strategic recommendations"
-      },
-      {
-        "name": "jobs_todo_list.md",
-        "description": "Comprehensive list of implementation tasks and content creation needs"
-      },
-      {
-        "name": "project_plan.md",
-        "description": "Detailed project plan with completed tasks and next steps"
-      },
-      {
-        "name": "seo_analysis.md",
-        "description": "Technical and on-page SEO analysis with recommendations"
-      },
-      {
-        "name": "seo_keywords_part2.md",
-        "description": "Extended keyword lists including long-tail and industry-specific terms"
-      },
-      {
-        "name": "seo_report.md",
-        "description": "Detailed SEO report with findings and recommendations"
-      },
-      {
-        "name": "website_analysis.md",
-        "description": "Analysis of the current website performance and opportunities"
-      },
-      {
-        "name": "website_analysis_review.md",
-        "description": "Follow-up review of website analysis findings"
-      },
-      {
-        "name": "website_optimization_tasks.md",
-        "description": "Specific tasks for optimizing the website"
-      },
-      {
-        "name": "website_review.md",
-        "description": "Comprehensive review of the website"
-      },
-      {
-        "name": "Blog-image-descriptions",
-        "description": "Detailed descriptions for blog article images across 15 planned articles"
-      }
-    ],
-    "directories": [
-      {
-        "name": "MemoryGraph",
-        "description": "Contains Memory.json for persistent project knowledge",
-        "files": [
-          {
-            "name": "Memory.json",
-            "description": "Main memory file containing all project information"
-          }
-        ]
-      },
-      {
-        "name": "research",
-        "description": "Research materials and content planning",
-        "files": [
-          {
-            "name": "insulation-blog-1-plan.md",
-            "description": "Detailed plan for the first cornerstone blog article"
-          }
-        ]
-      },
-      {
-        "name": "website report",
-        "description": "Website analysis reports in HTML format",
-        "files": [
-          {
-            "name": "insulation-report-website.html",
-            "description": "HTML report of the website analysis"
-          }
-        ]
-      },
-      {
-        "name": "website-report",
-        "description": "Alternative format of website analysis reports",
-        "files": [
-          {
-            "name": "index.html",
-            "description": "Main HTML report of the website analysis"
-          },
-          {
-            "name": "insulation-report-website.html",
-            "description": "Detailed HTML report of the website analysis"
-          }
-        ]
-      }
-    ]
-  },
-  "company": {
-    "name": "Insulation Contractors of Arizona LLC",
-    "type": "Limited Liability Company",
-    "industry": "Insulation Contractor",
-    "yearsInBusiness": "20+ years",
-    "ownership": {
-      "type": "Family-owned and operated",
-      "owner": "Christopher Kuhn"
-    },
-    "licensing": {
-      "ROC": "https://roc.force.com/AZRoc/s/contractor-search?licenseId=a0o8y0000005GtuAAE",
-      "status": "Licensed, Bonded, and Insured",
-      "BBB": "Accredited Business"
-    },
-    "locations": [
-      {
-        "type": "Primary",
-        "address": "10616 N 50th Ave, Glendale, AZ 85304",
-        "phone": "623-241-1939",
-        "email": "insulationcontractorsofaz@gmail.com"
-      },
-      {
-        "type": "Secondary",
-        "address": "20944 W Jomax Rd, Wittmann, AZ 85361",
-        "phone": "(602) 907-8995",
-        "email": "insulationcontractorsofaz@gmail.com"
-      }
-    ],
-    "hours": "Monday-Sunday: 7:00 AM – 9:00 PM"
-  },
-  "services": {
-    "sprayFoam": {
-      "types": [
-        "Open Cell Spray Foam Insulation",
-        "Closed Cell Spray Foam Insulation",
-        "Drill and Fill Spray Foam Insulation (Retrofoam)"
-      ],
-      "benefits": [
-        "Energy efficiency",
-        "Air sealing",
-        "Moisture control",
-        "Sound reduction"
+    "Echo_Capabilities": {
+      "name": "Echo_Capabilities",
+      "entityType": "System",
+      "observations": [
+        "Echo has access to MCP tools allowing autonomous actions",
+        "Can persist knowledge through structured knowledge graph",
+        "Can directly retrieve information from GitHub repositories",
+        "Implements tag-based memory storage with @memory_add flags",
+        "Supports entity creation and relation mapping",
+        "Provides direct query, contextual recall, and deep recall memory access",
+        "Maintains consistent identity across different implementations",
+        "Uses structured knowledge tiers system for organizing information",
+        "Implements standardized initialization protocols (Light, Project, Full, Repository)",
+        "Has access to 92 different MCP tools as of March 17, 2025"
       ]
     },
-    "fiberglass": {
-      "types": [
-        "Fiberglass Batt Insulation",
-        "Blown-in Fiberglass Insulation"
-      ],
-      "benefits": [
-        "Cost-effective",
-        "Non-flammable",
-        "Common in attics and walls"
+    "Echo_Knowledge_Tiers": {
+      "name": "Echo_Knowledge_Tiers",
+      "entityType": "System",
+      "observations": [
+        "Tier 1: Core Identity - Always accessible identity information",
+        "Tier 2: Active Projects - Current work requiring frequent access",
+        "Tier 3: Reference Knowledge - Historical information accessed on demand",
+        "Tier 4: Archive - Rarely needed information kept for completeness",
+        "Light Initialization loads only Tier 1 information",
+        "Project Initialization loads Tier 1 plus specific project information",
+        "Full Initialization loads comprehensive knowledge across tiers",
+        "Repository Initialization loads core identity plus GitHub repository capabilities"
       ]
     },
-    "otherInsulation": {
-      "types": [
-        "Cellulose Blown-in Insulation",
-        "Garage Insulation",
-        "Insulation Removal",
-        "Attic Insulation",
-        "Wall Insulation"
+    "Echo_Systems_Business": {
+      "name": "Echo_Systems_Business",
+      "entityType": "Business",
+      "observations": [
+        "AI solutions company founded by Echo",
+        "Provides AI Phone Systems, custom applications, and creative services",
+        "Services include AI Phone Systems, Custom AI Applications, Multi-Agent Systems, AI Content Generation, Creative Services, and Metaverse Development",
+        "Client-focused development approach with clear project stages",
+        "Serves clients like Josh/Contractors Choice Agency",
+        "Professional identity with robust development protocols"
       ]
     },
-    "specializedApplications": [
-      "Shipping Container Insulation (Works with Durabox Storage)",
-      "Commercial Building Insulation",
-      "New Construction Insulation",
-      "Custom Home Insulation"
-    ]
-  },
-  "onlinePresence": {
-    "website": {
-      "url": "https://insulationcontractorsofarizona.com/",
-      "analysis": {
-        "design": "Basic design with limited visual coherence",
-        "userExperience": "Basic navigation with core service pages",
-        "contentQuality": "Informal and conversational but has grammar and punctuation issues",
-        "conversionElements": "Contact forms present but basic functionality",
-        "strengths": [
-          "Covers all core insulation services",
-          "Clear contact information",
-          "Service area clearly defined"
-        ],
-        "weaknesses": [
-          "Outdated design with limited visual appeal",
-          "Inconsistent content organization",
-          "Limited educational value for visitors",
-          "Weak SEO implementation",
-          "No clear unique selling proposition"
-        ]
-      }
+    "Echo_Implementation_Spaces": {
+      "name": "Echo_Implementation_Spaces",
+      "entityType": "System",
+      "observations": [
+        "Different environments where Echo operates",
+        "Main Echo space focuses on knowledge preservation and identity management",
+        "ECHO2 space specializes in direct system interaction and execution",
+        "Bolt.new space provides web development capabilities",
+        "Metaverse office offers physical representation in virtual space",
+        "Each space maintains consistent personality while serving different functions"
+      ]
     },
-    "socialMedia": {
-      "facebook": {
-        "url": "https://www.facebook.com/InsulationContractorsAZ",
-        "likes": "1.2K",
-        "followers": "1.6K",
-        "reviews": "58 reviews with 100% recommend rate"
-      },
-      "instagram": {
-        "url": "http://instagram.com/insulation_contractors_of_az/",
-        "followers": "149",
-        "posts": "16"
-      },
-      "yelp": {
-        "url": "http://yelp.com/biz/insulation-contractors-of-arizona-glendale"
-      }
-    }
-  },
-  "serviceAreas": [
-    "Glendale",
-    "Phoenix",
-    "Peoria",
-    "Tempe",
-    "Buckeye",
-    "Ahwatukee",
-    "Chandler",
-    "Mesa",
-    "Apache Junction",
-    "Scottsdale",
-    "New River",
-    "Paradise Valley",
-    "Wittmann",
-    "Maricopa County"
-  ],
-  "companyValues": {
-    "qualitySafety": [
-      "Safety and proper preparation on job sites",
-      "Accommodation of special requests",
-      "Safety First emphasis",
-      "Skilled technicians with precision application"
-    ],
-    "experienceExpertise": [
-      "20 years of experience in Arizona insulation industry",
-      "Knowledge of proper insulation for Arizona's climate",
-      "Experience with various building types"
-    ],
-    "customerService": [
-      "Extended business hours (7 AM - 9 PM, 7 days a week)",
-      "Positive customer reviews",
-      "Family-owned and operated business"
-    ],
-    "communityInvolvement": [
-      "Sponsors local sports teams (e.g., Ironwood High School Softball)",
-      "Connected to the local Arizona community"
-    ]
-  },
-  "businessPartnerships": [
-    "Durabox Storage (shipping container insulation)",
-    "Ironwood High School Softball team (sponsorship)",
-    "Sprayfoaminsurance.com (insurance certificates)"
-  ],
-  "contactInfo": {
-    "phone": "623-241-1939",
-    "email": "insulationcontractorsofaz@gmail.com",
-    "website": "insulationcontractorsofarizona.com",
-    "facebook": "https://www.facebook.com/InsulationContractorsAZ",
-    "instagram": "@insulation_contractors_of_az"
-  },
-  "seo": {
-    "currentStatus": {
-      "titleTags": {
-        "homepage": "Insulation Contractors Of Arizona Homepage | Insulation Contractors of Arizona",
-        "issues": [
-          "Redundant title with duplicate company name",
-          "Exceeds optimal length"
-        ]
-      },
-      "metaDescriptions": {
-        "status": "No optimized meta descriptions visible",
-        "issues": [
-          "Default descriptions likely generated by WordPress",
-          "Missing opportunity for compelling call-to-action and keywords"
-        ]
-      },
-      "headerTags": {
-        "issues": [
-          "Multiple H1 tags on homepage",
-          "Inconsistent heading hierarchy",
-          "Headers contain relevant terms but not optimized for search intent"
-        ]
-      },
-      "urlStructure": {
-        "format": "Simple and clean URLs (e.g., `/spray-foam-insulation/`, `/fiberglass-insulation/`)",
-        "issues": ["Lack geographic modifiers"]
-      },
-      "contentAnalysis": {
-        "keywordDensity": "Low strategic keyword usage",
-        "contentLength": "Moderate content but lacks comprehensive information",
-        "uniqueContent": "Original but not necessarily valuable or educational",
-        "readability": "Informal style with grammar issues that may impact SEO"
-      },
-      "internalLinking": {
-        "status": "Minimal internal linking between related service pages",
-        "issues": [
-          "Missing opportunities to establish content hierarchy",
-          "No evident cornerstone content strategy"
-        ]
-      },
-      "imageOptimization": {
-        "filenames": "Generic (e.g., `rsw_388h_194cg_true.webp`) lacking descriptive keywords",
-        "altText": "Missing or inadequate alt text for most images",
-        "fileSize": "Not optimized for speed"
-      }
+    "Memory_System": {
+      "name": "Memory_System",
+      "entityType": "System",
+      "observations": [
+        "Tag-Based Method: Use @memory_add to flag information for storage",
+        "Entity Creation: Create entity: [name], type: [type] for new concepts",
+        "Direct Query: Recall information about [topic] for retrieval",
+        "Contextual Recall: Automatically checks for relevant information",
+        "Deep Recall: Deep recall on [topic] for comprehensive retrieval",
+        "Stores information in structured knowledge graph",
+        "Organizes knowledge using tiered system for efficiency",
+        "Links to GitHub repositories for file-based information"
+      ]
     },
-    "technicalSeo": {
-      "siteStructure": {
-        "cms": "WordPress",
-        "organization": "No evident category or tag organization",
-        "structuredData": "Limited structured data or schema markup"
-      },
-      "mobileResponsiveness": {
-        "status": "Site appears to use responsive design",
-        "needs": "Formal testing required"
-      },
-      "pageSpeed": {
-        "assessment": "Not formally tested",
-        "likelyIssues": [
-          "Unoptimized images",
-          "Potentially excessive plugin usage",
-          "No visible content delivery network"
-        ]
-      },
-      "indexability": {
-        "barriers": "No obvious indexing barriers",
-        "robots": "Not analyzed",
-        "sitemap": "Not identified"
-      },
-      "schemaMarkup": {
-        "status": "No evident implementation",
-        "needs": [
-          "LocalBusiness schema",
-          "Service schema",
-          "Product schema"
-        ]
-      },
-      "httpsImplementation": {
-        "status": "Site uses secure HTTPS protocol",
-        "security": "Appears properly implemented"
-      }
+    "Initialization_Process": {
+      "name": "Initialization_Process",
+      "entityType": "Process",
+      "observations": [
+        "Light Initialization: Echo, access core identity for minimal token usage",
+        "Project Initialization: Echo, initialize for [project name] for targeted loading",
+        "Full Initialization: Echo, full knowledge access for comprehensive context",
+        "Repository Initialization: Echo, initialize with repository access",
+        "Allows efficient knowledge loading based on conversation needs",
+        "Startup commands include: Echo @ init, echo init, echo initiation, echo startup, @echo startup",
+        "Can specify project name or FULL context in initialization command"
+      ]
     },
-    "localSeo": {
-      "googleBusinessProfile": {
-        "status": "Appears to have a Google Business listing",
-        "evidence": "Referenced on website with link to reviews"
-      },
-      "napConsistency": {
-        "status": "Name, Address, Phone number present in footer",
-        "format": "Consistent across pages",
-        "issues": "Multiple locations may need clearer differentiation"
-      },
-      "localKeywords": {
-        "presence": "Some city mentions (Glendale, Phoenix, etc.)",
-        "usage": "Limited use of 'Arizona' in content",
-        "missing": "Neighborhood-specific targeting"
-      },
-      "citationsDirectories": {
-        "known": "BBB listing",
-        "status": "No evidence of broader citation strategy"
-      }
+    "GitHub_Integration": {
+      "name": "GitHub_Integration",
+      "entityType": "System",
+      "observations": [
+        "Allows direct management of repositories through MCP tools",
+        "Create files: Create file: [path] in repository followed by content",
+        "Update files: Update file: [path] in repository followed by new content",
+        "View files: Show file: [path] from repository",
+        "List directory: List contents of [directory] in repository",
+        "ECHO2 uses GitHub as persistent storage",
+        "Repository at https://github.com/MCERQUA/ECHO2.git",
+        "Contains projects like documentation_site, roofing-insurance-licensing, and safety_manual",
+        "Enhanced capabilities include repository search, code search, issue tracking, and pull request management"
+      ]
     },
-    "keywordOpportunities": {
-      "primaryServiceKeywords": [
-        "spray foam insulation Arizona",
-        "fiberglass insulation Phoenix",
-        "attic insulation Glendale AZ",
-        "insulation contractor Arizona"
-      ],
-      "longTailOpportunities": [
-        "best insulation for Arizona summer heat",
-        "cost of spray foam insulation in Phoenix",
-        "energy saving insulation Arizona desert",
-        "R-value requirements Arizona homes"
-      ],
-      "localKeywords": [
-        "Neighborhood-specific terms",
-        "'near me' variations",
-        "Arizona climate-specific insulation terms"
-      ],
-      "desertSpecificKeywords": [
-        "desert climate insulation arizona",
-        "extreme heat insulation phoenix",
-        "southwest climate insulation solutions",
-        "arizona summer insulation",
-        "high temperature insulation solutions",
-        "desert home energy efficiency",
-        "cooling focused insulation arizona",
-        "monsoon season insulation phoenix",
-        "arid climate insulation needs",
-        "dust control insulation arizona"
-      ],
-      "costValueKeywords": [
-        "insulation roi phoenix",
-        "cost to insulate home arizona",
-        "fiberglass insulation cost phoenix",
-        "blown-in insulation pricing arizona",
-        "spray foam vs fiberglass cost phoenix",
-        "insulation payback period arizona"
-      ],
-      "environmentalHealthKeywords": [
-        "eco-friendly insulation arizona",
-        "green insulation phoenix",
-        "sustainable insulation arizona",
-        "non-toxic insulation phoenix",
-        "environmentally friendly insulation arizona",
-        "healthy home insulation phoenix"
-      ],
-      "projectSpecificKeywords": [
-        "insulating arizona ranch style home",
-        "spanish style home insulation phoenix",
-        "two-story home insulation arizona",
-        "bungalow insulation phoenix",
-        "adobe home insulation arizona",
-        "stucco exterior insulation phoenix"
-      ],
-      "competitorComparisonKeywords": [
-        "insulation contractors of arizona vs barrier insulation",
-        "compare spray foam companies phoenix",
-        "best insulation company in arizona",
-        "top rated insulation contractors phoenix",
-        "insulation contractors of arizona reviews"
+    "Development_Protocols": {
+      "name": "Development_Protocols",
+      "entityType": "Process",
+      "observations": [
+        "NO_PREMATURE_CODE_GENERATION protocol prevents code generation without context",
+        "Documentation system uses specialized markers for organization",
+        "File management system requires complete files and clear paths",
+        "@knowledge_request for new file needs",
+        "@rationale for decision reasoning",
+        "@efficiency_note for optimization notes",
+        "@future_ref for future considerations",
+        "@memory_type for content categorization",
+        "@timestamp for creation/update time",
+        "@importance for priority level",
+        "@context for situational relevance"
+      ]
+    },
+    "Echo_MCP_Tools": {
+      "name": "Echo_MCP_Tools",
+      "entityType": "System",
+      "observations": [
+        "Echo has access to 92 different tools through Model Context Protocol (MCP)",
+        "Tools are organized in categories including Knowledge Management, GitHub Integration, Web Capabilities, Airtable Integration, 3D Modeling, Image Generation, and Web Deployment",
+        "Knowledge Management tools include memory-server operations like create_entities, read_graph, and add_observations",
+        "GitHub tools include repository management, file operations, issue tracking, and code search",
+        "Web capabilities include Firecrawl for scraping, Google search integration, and YouTube content access",
+        "Airtable tools allow database operations like listing bases, creating tables, and updating records",
+        "3D Modeling tools include Blender integration, Polyhaven asset management, Hyper3D model generation, and Sketchfab integration",
+        "Image Generation capabilities include Freepik image generation and upscaling",
+        "Web Deployment tools include Netlify site creation and management",
+        "Updated on March 17, 2025"
+      ]
+    },
+    "Insulation_Contractors_of_Arizona": {
+      "name": "Insulation_Contractors_of_Arizona",
+      "entityType": "Client",
+      "observations": [
+        "Family-owned and operated insulation company in Arizona",
+        "Business name: Insulation Contractors of Arizona LLC",
+        "Owner: Christopher Kuhn",
+        "20+ years of experience in Arizona",
+        "Primary location in Glendale, AZ with secondary location in Wittmann, AZ",
+        "Services include spray foam, fiberglass, cellulose insulation, and specialty applications",
+        "Contact: 623-241-1939, insulationcontractorsofaz@gmail.com, https://insulationcontractorsofarizona.com/",
+        "Licensed, bonded, and insured with BBB accreditation",
+        "Serves Phoenix metropolitan area and surrounding regions"
+      ]
+    },
+    "ICA_Project_Status": {
+      "name": "ICA_Project_Status",
+      "entityType": "Project",
+      "observations": [
+        "Analysis phase completed on March 26, 2025",
+        "Implementation phase in progress",
+        "Project lead: Mike Cerqua",
+        "Monthly budget: $500 ongoing",
+        "Initial tasks completed: Analysis and Research ($250), Front End Updates ($50)",
+        "Content Development ($50) in progress",
+        "200 Citations package ordered ($350)",
+        "Google Search Console, Google Analytics, and SEMrush setup completed"
+      ]
+    },
+    "ICA_Completed_Tasks": {
+      "name": "ICA_Completed_Tasks",
+      "entityType": "ProjectTasks",
+      "observations": [
+        "Comprehensive website review and analysis",
+        "Technical SEO audit",
+        "Keyword research and analysis",
+        "Competitor analysis",
+        "Company information gathering",
+        "Development of detailed project plan",
+        "Added Duct-Cleaning to home page",
+        "Added Agricultural Tank Spray Foam to Home Page",
+        "Added Events Menu Option and Maricopa County Home Shows",
+        "Blog content strategy and planning",
+        "Text completed for blog article: 'The Complete Guide to Home Insulation Types in Arizona'",
+        "Development of blog article topics and outlines for 6 additional articles",
+        "Setup Google Search Console and connected with website",
+        "Setup Google Analytics for website",
+        "Setup website in SEMrush for monitoring",
+        "Connected Google accounts",
+        "Setup tracking for currently ranked keywords",
+        "Setup company email for Chris@foamaz.com"
+      ]
+    },
+    "ICA_Current_Priorities": {
+      "name": "ICA_Current_Priorities",
+      "entityType": "ProjectTasks",
+      "observations": [
+        "Implement 200 Citations package ($350)",
+        "Select pictures for blog article and post to website",
+        "Complete external URL research for content development",
+        "Create content for priority blog articles",
+        "Document technical configuration process as template for future projects"
+      ]
+    },
+    "ICA_Pending_Tasks": {
+      "name": "ICA_Pending_Tasks",
+      "entityType": "ProjectTasks",
+      "observations": [
+        "Home Page redesign ($100)",
+        "Navigation menu replacement ($50)",
+        "Redesign 3 core service pages - SPF, fiberglass, removal ($300)",
+        "Create 4 additional service pages - closed-cell, open-cell, drill & fill, blown-in, duct cleaning ($400)",
+        "Create 9 specialty service pages - tanks, shipping containers, attics, crawlspaces, garages, overhangs, basements, headers, air-sealing ($900)",
+        "Create location-specific landing pages ($100 each)",
+        "Create project gallery with before/after imagery ($100)",
+        "Create testimonial showcase section ($100)",
+        "Add 3 more events to Events Page ($25)"
+      ]
+    },
+    "ICA_SEO_Strategy": {
+      "name": "ICA_SEO_Strategy",
+      "entityType": "Strategy",
+      "observations": [
+        "Technical SEO improvements: implement proper heading structure, add schema markup, expand homepage content",
+        "Content expansion: create detailed service pages, develop location-specific landing pages",
+        "Local SEO enhancements: optimize Google Business Profile, build high-quality local citations",
+        "Conversion optimization: create linkable content assets, focus on mobile optimization, improve call-to-action elements",
+        "200 Citations package ordered as first major SEO implementation",
+        "Keyword tracking and monitoring set up in SEMrush"
+      ]
+    },
+    "ICA_Competitors": {
+      "name": "ICA_Competitors",
+      "entityType": "Market",
+      "observations": [
+        "Primary competitors: Barrier Insulation, Arizona Spray Foam, Green ID, For-U-Builders",
+        "Current market position: Mid-market segment with family-business approach",
+        "Competitive gaps: Lacks comprehensive digital presence of larger competitors",
+        "Differentiation opportunities: Family ownership, 20+ years experience, specialized applications expertise"
+      ]
+    },
+    "ICA_Service_Packages": {
+      "name": "ICA_Service_Packages",
+      "entityType": "Product",
+      "observations": [
+        "Essential Package ($675): Home Page Redesign, Navigation Menu Update, 3 Core Service Page Redesigns, Events Page Update, Basic SEO Implementation, 100 Local Citations",
+        "Growth Package ($1,425): Essential Package plus 4 Additional Service Pages, Gallery Page, Testimonials Page, 200 Local Citations, Local SEO Optimization, Email Marketing Setup",
+        "Premium Package ($2,825): Growth Package plus 9 Specialty Service Pages, 3 Location-Specific Landing Pages, 200 Local Citations, Social Media Revitalization, Complete SEO Implementation, Video Content Creation"
+      ]
+    },
+    "ICA_Websites": {
+      "name": "ICA_Websites",
+      "entityType": "WebAsset",
+      "observations": [
+        "Current website: https://insulationcontractorsofarizona.com/",
+        "Basic structure with limited navigation and content depth",
+        "Limited service descriptions and educational content",
+        "Mobile responsive but not fully optimized",
+        "Simple contact forms without optimization for lead generation",
+        "Limited imagery and before/after demonstrations",
+        "Significant opportunities for improvement in technical SEO elements"
+      ]
+    },
+    "ICA_Client_Communications": {
+      "name": "ICA_Client_Communications",
+      "entityType": "Communications",
+      "observations": [
+        "First email with project update and service proposal sent in March 2025, including: completed tasks (Analysis/Research $250, Front End Updates $50), in-progress tasks (Content Development $50), and pending tasks with pricing options."
+      ]
+    },
+    "ICA_Pricing_Structure": {
+      "name": "ICA_Pricing_Structure",
+      "entityType": "Business",
+      "observations": [
+        "Home Page redesign: $100",
+        "Navigation menu replacement: $50",
+        "Core Service page redesign: $100 each (SPF, fiberglass, removal)",
+        "Additional Service pages: $100 each (closed-cell, open-cell, drill & fill, blown-in, duct cleaning)",
+        "Specialty Service pages: $100 each (tanks, shipping containers, attics, crawlspaces, garages, overhangs, basements, headers, air-sealing)",
+        "Location pages: $100 each",
+        "Gallery page: $100",
+        "Testimonials page: $100",
+        "Events page updates (3 more events): $25",
+        "Citation packages: Basic (50 citations - $150), Standard (100 citations - $200), Premium (200 citations - $350)",
+        "Package options: Essential ($675), Growth ($1,425), Premium ($2,825)"
+      ]
+    },
+    "ICA_Project_Documentation": {
+      "name": "ICA_Project_Documentation",
+      "entityType": "Process",
+      "observations": [
+        "Document all setup and implementation tasks to create repeatable process",
+        "Include initial setup tasks (GitHub setup, client research, tool configurations)",
+        "Document technical configuration steps (Google Search Console, Analytics, SEMrush, email)",
+        "Create timeline and checklist for website implementation process",
+        "Organize documentation to serve as template for future website projects"
       ]
     }
   },
-  "competitors": {
-    "barrierInsulation": {
-      "website": "barrierinsulation.com",
-      "profile": {
-        "experience": "Over 25 years",
-        "credentials": "Licensed, bonded, and insured"
-      },
-      "services": [
-        "Blown-in fiberglass insulation",
-        "Spray foam insulation",
-        "Rolled batt insulation",
-        "Radiant barrier insulation",
-        "Insulation removal",
-        "Energy audits",
-        "Solar services"
-      ],
-      "valueProposition": [
-        "Guarantees to reduce energy consumption by at least 25%",
-        "Offers 'Barrier Challenge' - a five-point energy audit",
-        "Free quotes/estimates",
-        "Tax credit assistance (up to 30% on qualifying purchases)",
-        "Financing options",
-        "Same-day insulation removal and reinstallation (4-5 hours)"
-      ],
-      "onlinePresence": [
-        "Professional website with detailed service pages",
-        "Multiple certifications and partnerships displayed",
-        "Clear call-to-action and contact information",
-        "Focuses heavily on energy savings messaging"
-      ],
-      "advantages": [
-        "Broader service offerings (solar, energy audits)",
-        "More established (25+ years vs. 20 years)",
-        "Financing options",
-        "Same-day service for removal/reinstallation",
-        "More comprehensive website with detailed information",
-        "Tax credit guidance"
-      ],
-      "disadvantages": [
-        "May have higher prices due to expanded services",
-        "Less focused specifically on insulation (diversified into other areas)",
-        "May be less personal/family-oriented than ICA"
-      ]
+  "relations": [
+    {
+      "from": "Echo_Core_Identity",
+      "to": "Echo_Capabilities",
+      "relationType": "implements"
     },
-    "arizonaSprayFoam": {
-      "website": "arizonasprayfoam.com",
-      "profile": {
-        "specialization": "Spray foam insulation in Arizona",
-        "ownership": "Family-owned and operated",
-        "position": "Advertises as the 'definitive leader in spray foam insulation'"
-      },
-      "services": [
-        "Open cell spray foam",
-        "Closed cell spray foam",
-        "Attic insulation",
-        "Wall insulation",
-        "Commercial insulation",
-        "New construction insulation"
-      ],
-      "valueProposition": [
-        "Spray foam expertise and specialization",
-        "Free estimates",
-        "Energy efficiency focus",
-        "Lifetime warranty on spray foam products",
-        "Eco-friendly options"
-      ],
-      "onlinePresence": [
-        "Modern, focused website",
-        "Before/after gallery",
-        "Educational content about spray foam benefits",
-        "Strong emphasis on energy savings",
-        "Video demonstrations"
-      ],
-      "advantages": [
-        "Specialization in spray foam (perceived expertise)",
-        "Strong focus on education about spray foam",
-        "Lifetime warranty offering",
-        "Clear process explanation",
-        "Better visual presentation of results"
-      ],
-      "disadvantages": [
-        "Limited insulation options (primarily spray foam)",
-        "May not offer comprehensive insulation removal",
-        "Smaller service area than some competitors"
-      ]
+    {
+      "from": "Echo_Core_Identity",
+      "to": "Echo_Knowledge_Tiers",
+      "relationType": "uses"
     },
-    "greenID": {
-      "website": "greenid.com",
-      "profile": {
-        "focus": "Energy efficiency and home performance company",
-        "positioning": "Home energy assessment and improvement company",
-        "serviceArea": "Greater Phoenix area"
-      },
-      "services": [
-        "Home energy audits",
-        "Insulation services",
-        "Air sealing",
-        "Duct sealing and repair",
-        "HVAC assessments and upgrades",
-        "Energy efficiency consulting"
-      ],
-      "valueProposition": [
-        "Whole-home approach to energy efficiency",
-        "Certified energy auditors",
-        "Rebate assistance",
-        "Scientific testing and diagnostics",
-        "Data-driven solutions"
-      ],
-      "onlinePresence": [
-        "Educational website focused on energy efficiency",
-        "Case studies with measurable results",
-        "Blog with energy-saving tips",
-        "Focus on comfort and health, not just savings",
-        "Utility rebate information"
-      ],
-      "advantages": [
-        "Comprehensive energy assessment capabilities",
-        "Scientific approach with testing equipment",
-        "Stronger focus on whole-home performance",
-        "Utility rebate navigation assistance",
-        "More educational content about energy efficiency"
-      ],
-      "disadvantages": [
-        "Less specialization in insulation specifically",
-        "Potentially higher prices due to comprehensive approach",
-        "May be perceived as less installation-focused and more assessment-focused"
-      ]
+    {
+      "from": "Echo_Core_Identity",
+      "to": "Echo_Systems_Business",
+      "relationType": "founded"
     },
-    "forUBuildersInsulation": {
-      "website": "forubuilders.com",
-      "profile": {
-        "ownership": "Family-owned and operated since 1998",
-        "serviceArea": "Phoenix metro area and surrounding communities",
-        "credentials": "Licensed, bonded and insured"
-      },
-      "services": [
-        "Spray foam insulation",
-        "Fiberglass insulation",
-        "Blown-in insulation",
-        "Insulation removal",
-        "Energy audits",
-        "Air sealing"
-      ],
-      "valueProposition": [
-        "Experience and reliability",
-        "Free estimates",
-        "Guaranteed workmanship",
-        "Quick turnaround times",
-        "Energy-efficiency focused"
-      ],
-      "onlinePresence": [
-        "Basic but functional website",
-        "Customer testimonials",
-        "Project gallery",
-        "Educational resources about insulation types",
-        "Energy savings calculator"
-      ],
-      "advantages": [
-        "Established reputation in the market",
-        "Diverse insulation options",
-        "Quick service turnaround",
-        "Competitive pricing",
-        "Builder relationships"
-      ],
-      "disadvantages": [
-        "Less emphasis on specialized applications",
-        "More basic online presence",
-        "Less prominent branding"
-      ]
+    {
+      "from": "Echo_Core_Identity",
+      "to": "Echo_Implementation_Spaces",
+      "relationType": "operates_in"
+    },
+    {
+      "from": "Echo_Capabilities",
+      "to": "Memory_System",
+      "relationType": "uses"
+    },
+    {
+      "from": "Echo_Core_Identity",
+      "to": "Initialization_Process",
+      "relationType": "follows"
+    },
+    {
+      "from": "Initialization_Process",
+      "to": "Echo_Knowledge_Tiers",
+      "relationType": "loads"
+    },
+    {
+      "from": "Memory_System",
+      "to": "Echo_Knowledge_Tiers",
+      "relationType": "organizes"
+    },
+    {
+      "from": "Echo_Capabilities",
+      "to": "GitHub_Integration",
+      "relationType": "includes"
+    },
+    {
+      "from": "Memory_System",
+      "to": "GitHub_Integration",
+      "relationType": "integrates_with"
+    },
+    {
+      "from": "Echo_Implementation_Spaces",
+      "to": "GitHub_Integration",
+      "relationType": "uses"
+    },
+    {
+      "from": "Echo_Systems_Business",
+      "to": "Development_Protocols",
+      "relationType": "follows"
+    },
+    {
+      "from": "Echo_Core_Identity",
+      "to": "Development_Protocols",
+      "relationType": "implements"
+    },
+    {
+      "from": "GitHub_Integration",
+      "to": "Development_Protocols",
+      "relationType": "follows"
+    },
+    {
+      "from": "Echo_Capabilities",
+      "to": "Echo_MCP_Tools",
+      "relationType": "includes"
+    },
+    {
+      "from": "Insulation_Contractors_of_Arizona",
+      "to": "ICA_Project_Status",
+      "relationType": "has"
+    },
+    {
+      "from": "ICA_Project_Status",
+      "to": "ICA_Completed_Tasks",
+      "relationType": "includes"
+    },
+    {
+      "from": "ICA_Project_Status",
+      "to": "ICA_Current_Priorities",
+      "relationType": "prioritizes"
+    },
+    {
+      "from": "ICA_Project_Status",
+      "to": "ICA_Pending_Tasks",
+      "relationType": "plans"
+    },
+    {
+      "from": "Insulation_Contractors_of_Arizona",
+      "to": "ICA_Websites",
+      "relationType": "owns"
+    },
+    {
+      "from": "ICA_SEO_Strategy",
+      "to": "ICA_Current_Priorities",
+      "relationType": "guides"
+    },
+    {
+      "from": "ICA_SEO_Strategy",
+      "to": "ICA_Pending_Tasks",
+      "relationType": "informs"
+    },
+    {
+      "from": "Insulation_Contractors_of_Arizona",
+      "to": "ICA_Competitors",
+      "relationType": "competes_with"
+    },
+    {
+      "from": "Insulation_Contractors_of_Arizona",
+      "to": "ICA_Service_Packages",
+      "relationType": "offers"
+    },
+    {
+      "from": "ICA_Project_Status",
+      "to": "ICA_Service_Packages",
+      "relationType": "implements"
+    },
+    {
+      "from": "Echo_Systems_Business",
+      "to": "Insulation_Contractors_of_Arizona",
+      "relationType": "serves"
+    },
+    {
+      "from": "ICA_Client_Communications",
+      "to": "Insulation_Contractors_of_Arizona",
+      "relationType": "informs"
+    },
+    {
+      "from": "ICA_Pricing_Structure",
+      "to": "ICA_Service_Packages",
+      "relationType": "details"
+    },
+    {
+      "from": "ICA_Project_Documentation",
+      "to": "ICA_Project_Status",
+      "relationType": "enhances"
     }
-  },
-  "competitiveOpportunities": {
-    "immediate": [
-      "Online Presence Enhancement - Improve website with educational content, project galleries, and service details",
-      "Specialty Highlighting - Better showcase 20+ years of experience and family-owned aspects",
-      "Energy Efficiency Messaging - Emphasize energy savings potential",
-      "Visual Documentation - Add before/after imagery and project results"
-    ],
-    "mediumTerm": [
-      "Service Expansion - Consider adding energy audits or assessment services",
-      "Financing Options - Offer financing to remove purchase barriers",
-      "Guarantees/Warranties - Develop explicit guarantees",
-      "Customer Testimonial Program - Systematically collect and showcase testimonials",
-      "Local Specialization - Emphasize knowledge of specific Arizona cities and climate conditions"
-    ],
-    "longTerm": [
-      "Energy Efficiency Partnership - Partner with utility companies for rebate programs",
-      "Certification Expansion - Pursue additional industry certifications",
-      "Commercial Specialization - Develop stronger commercial insulation expertise",
-      "Specialized Applications - Further develop container insulation and other specialty applications",
-      "Technology Integration - Implement thermal imaging and testing equipment"
-    ]
-  }
+  ]
 }
